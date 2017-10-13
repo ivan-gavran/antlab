@@ -1,0 +1,8 @@
+prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
+
+Name: fake_localization
+Description: Description of fake_localization
+Version: 1.12.11
+Cflags: 
+Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib 
+Requires: roscpp rospy

@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped[] locations_to_visit
+multi_global_planner/robotInSpace[] available_robots
+---
+multi_global_planner/robotLocationAssignment[] assignment

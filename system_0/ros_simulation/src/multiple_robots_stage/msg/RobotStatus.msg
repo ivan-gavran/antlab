@@ -1,0 +1,2 @@
+bool alive
+string robotName

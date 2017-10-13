@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="multi_global_planner" type="multi_global_planner" name="multi_global_planner" respawn="false" launch-prefix="xterm -e gdb --args"/>
+</launch>

@@ -1,0 +1,82 @@
+include "/opt/ros/indigo/share/turtlebot_stage/maps/stage/turtlebot.inc"
+
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray30"
+
+  # most maps will need a bounding box
+  boundary 1
+
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+resolution 0.02
+interval_sim 100  # simulation timestep in milliseconds
+
+window
+(
+  size [ 500 500 ]
+  center [ 0.0 0.0 ]
+  rotate [ 0.0 0.0 ]
+  scale 60
+  show_grid 1
+)
+
+floorplan
+(
+  name "my_map"
+  bitmap "../shoreline.pgm"
+  size [ 32 20 2.0 ]
+ # pose [  0  0 0.0 0.0 ]
+ #location of the center of map
+   pose [  16 10 0.0 0.0 ]
+)
+
+turtlebot
+(
+  pose [ 1 10.0 0.0 0.0 ]
+  name "turtlebot0"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 25 10.0 0.0 0.0 ]
+  name "turtlebot1"
+  color "red"
+)
+
+turtlebot
+(
+  pose [ 5 12.0 0.0 0.0 ]
+  name "turtlebot2"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 21 2.0 0.0 0.0 ]
+  name "turtlebot3"
+  color "yellow"
+)
+turtlebot
+(
+  pose [ 15 17.0 0.0 0.0 ]
+  name "turtlebot4"
+  color "yellow"
+)
+turtlebot
+(
+  pose [ 13 10.0 0.0 0.0 ]
+  name "turtlebot5"
+  color "yellow"
+)
+
+
+

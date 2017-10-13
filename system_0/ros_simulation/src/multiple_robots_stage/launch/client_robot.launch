@@ -1,0 +1,12 @@
+
+<launch>
+	<arg name="robot_name" default="default_name"/>
+	<node pkg="multiple_robots_stage" type="client_patrol_single.py"
+		name="client_node" output="screen">
+		<param name="robot_name" value="$(arg robot_name)" />
+	</node>
+	
+	
+	<node pkg="multiple_robots_stage" type="distanceTravelledCalculator.py" name="distance_calculator" output="screen"/>
+	
+</launch>

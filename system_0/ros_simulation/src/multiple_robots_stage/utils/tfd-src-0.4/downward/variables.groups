@@ -1,0 +1,43 @@
+var0
+   0: Atom at(<r0>, <location11>)
+   1: Atom at(<r0>, <location12>)
+   2: Atom at(<r0>, <location21>)
+   3: Atom at(<r0>, <location22>)
+   4: Atom at(<r0>, <location31>)
+   5: Atom at(<r0>, <location32>)
+   6: <none of those>
+var1
+   0: Atom at(<r1>, <location11>)
+   1: Atom at(<r1>, <location12>)
+   2: Atom at(<r1>, <location21>)
+   3: Atom at(<r1>, <location22>)
+   4: Atom at(<r1>, <location31>)
+   5: Atom at(<r1>, <location32>)
+   6: <none of those>
+var2
+   0: Atom defined!total-cost()
+   1: <none of those>
+var3
+   0: Atom visited(<location11>)
+   1: <none of those>
+var4
+   0: Atom visited(<location12>)
+   1: <none of those>
+var5
+   0: Atom visited(<location21>)
+   1: <none of those>
+var6
+   0: Atom visited(<location22>)
+   1: <none of those>
+var7
+   0: Atom visited(<location31>)
+   1: <none of those>
+var8
+   0: Atom visited(<location32>)
+   1: <none of those>
+var9
+   -2: PNE derived!1()
+var10
+   -2: PNE derived!2()
+var11
+   -2: PNE total-cost()

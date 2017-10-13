@@ -1,0 +1,7 @@
+<library path="lib/libtfd_planner">
+  <class type="tfd_planner::TfdPlanner" base_class_type="multi_planner_base::MultiPlanner">
+    <description>
+      Planner based on Metric-FF planner
+    </description>
+  </class>
+</library>

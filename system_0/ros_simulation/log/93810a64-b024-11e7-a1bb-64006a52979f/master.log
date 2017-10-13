@@ -1,0 +1,1351 @@
+[rosmaster.main][INFO] 2017-10-13 16:41:20,178: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-10-13 16:41:20,178: Starting ROS Master Node
+[xmlrpc][INFO] 2017-10-13 16:41:20,179: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-10-13 16:41:20,179: Started XML-RPC server [http://wks-51-57:11311/]
+[xmlrpc][INFO] 2017-10-13 16:41:20,179: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-10-13 16:41:20,179: Master initialized: port[11311], uri[http://wks-51-57:11311/]
+[rosmaster.master][INFO] 2017-10-13 16:41:20,187: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,188: +PARAM [/roslaunch/uris/host_wks_51_57__39201] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,297: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/multi_global_planner/ant_multi_planner/planning_patience] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/max_rotational_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_in_place_rotational_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/multi_global_planner/ant_multi_planner/path_cost_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/robot_1/move_base_node/local_costmap/unknown_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,298: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/vx_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_0/move_base_node/local_costmap/unknown_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/move_base_node/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/move_base_node/global_costmap/unknown_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_0/move_base_node/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_0/move_base_node/local_costmap/origin_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/expected_update_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/min_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_1/move_base_node/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,299: +PARAM [/robot_0/move_base_node/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/global_costmap/mark_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/local_costmap/mark_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/fake_localization/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/holonomic_robot] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/local_costmap/z_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/local_costmap/origin_z] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/local_costmap/origin_y] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_lookahead] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,300: +PARAM [/robot_1/move_base_node/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,301: +PARAM [/robot_0/move_base_node/local_costmap/origin_z] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,301: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/marking] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,301: +SERVICE [/rosout/get_loggers] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,301: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/sim_granularity] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,301: +PARAM [/robot_0/move_base_node/local_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,301: +PARAM [/robot_0/move_base_node/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,302: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,302: +SERVICE [/rosout/set_logger_level] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,302: +PARAM [/robot_1/move_base_node/global_costmap/origin_z] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,302: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/observation_persistence] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,302: +PARAM [/robot_1/move_base_node/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,303: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/gdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,303: +PARAM [/robot_0/move_base_node/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,303: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,303: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/oscillation_reset_dist] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,304: +PARAM [/robot_1/move_base_node/local_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,304: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/min_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,304: +PARAM [/robot_0/move_base_node/local_costmap/lethal_cost_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,304: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,304: +PARAM [/multi_global_planner/ant_multi_planner/final_optimization] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,304: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,305: +PARAM [/robot_1/move_base_node/global_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,305: +PARAM [/robot_0/client_node/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,305: +PARAM [/robot_1/client_node/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,306: +PARAM [/robot_1/fake_localization/odom_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,306: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,306: +PARAM [/robot_0/move_base_node/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,306: +PARAM [/robot_1/move_base_node/global_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,306: +PARAM [/robot_0/move_base_node/local_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,307: +PARAM [/robot_0/move_base_node/global_costmap/footprint_padding] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,307: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,307: +PARAM [/robot_1/move_base_node/global_costmap/footprint_padding] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,307: +PARAM [/robot_1/fake_localization/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,307: +PARAM [/robot_0/move_base_node/local_costmap/footprint_padding] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,307: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/prune_plan] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +PARAM [/robot_0/move_base_node/global_costmap/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +PARAM [/robot_1/move_base_node/check_for_multirobot_plans] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +PARAM [/robot_1/move_base_node/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +PARAM [/robot_0/move_base_node/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +SUB [/clock] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,308: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/vtheta_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,309: +PARAM [/robot_1/move_base_node/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,309: +PARAM [/robot_0/move_base_node/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,309: +PARAM [/robot_0/move_base_node/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,309: +PARAM [/map_server/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,309: +PUB [/rosout_agg] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,309: +PARAM [/robot_0/move_base_node/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,310: +PARAM [/robot_1/move_base_node/local_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,310: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/gdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,310: +PARAM [/robot_0/move_base_node/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,310: +PARAM [/robot_0/move_base_node/global_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,310: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/meter_scoring] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,311: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/observation_persistence] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,311: +PARAM [/robot_1/move_base_node/global_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,311: +PARAM [/robot_1/move_base_node/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,311: +PARAM [/robot_0/move_base_node/global_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,312: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/prune_plan] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,312: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/dwa] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,312: +PARAM [/robot_0/move_base_node/global_costmap/z_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,312: +PARAM [/robot_1/move_base_node/global_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,312: +PARAM [/robot_0/move_base_node/global_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,313: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_lookahead] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,313: +PARAM [/stageros/base_watchdog_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,313: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/min_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,313: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/meter_scoring] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,314: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/observation_persistence] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,314: +PARAM [/robot_0/move_base_node/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,314: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_y] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,314: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,314: +PARAM [/robot_0/fake_localization/odom_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,314: +SUB [/rosout] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_0/move_base_node/global_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_0/move_base_node/base_global_planner] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_1/move_base_node/local_costmap/base_scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_0/move_base_node/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/sim_time] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_0/move_base_node/local_costmap/publish_voxel_map] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_1/move_base_node/local_costmap/lethal_cost_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,315: +PARAM [/robot_0/fake_localization/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/local_costmap/footprint_padding] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/local_costmap/z_voxels] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/vtheta_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_th] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/data_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/expected_update_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/local_costmap/z_voxels] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/global_costmap/origin_z] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/robot_name] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/global_costmap/z_voxels] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/max_rotational_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,316: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/local_costmap/mark_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/max_planning_retries] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/local_costmap/z_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/occdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_y] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/local_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/local_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/multi_global_planner/multi_planner] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,317: +PARAM [/robot_0/move_base_node/global_costmap/unknown_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/global_costmap/lethal_cost_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/vx_samples] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_0/move_base_node/local_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/occdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_0/move_base_node/global_costmap/lethal_cost_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/local_costmap/publish_voxel_map] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/global_costmap/mark_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/distance_collector/number_of_robots] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/local_costmap/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_0/move_base_node/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/global_costmap/z_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/pdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_in_place_rotational_vel] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,318: +PARAM [/robot_0/move_base_node/check_for_multirobot_plans] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/multi_global_planner/ant_multi_planner/primitives] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/global_costmap/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/recovery_behavior_enabled] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/base_global_planner] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/sim_granularity] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/min_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/global_costmap/base_scan/clearing] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/local_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/holonomic_robot] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/recovery_behavior_enabled] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/oscillation_reset_dist] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_1/move_base_node/global_costmap/z_voxels] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/fake_localization/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,319: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/expected_update_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/local_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/global_costmap/robot_radius] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/global_costmap/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/local_costmap/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/dwa] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/local_costmap/base_scan/expected_update_rate] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/global_costmap/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/pdist_scale] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_1/move_base_node/local_costmap/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,320: +PARAM [/robot_0/move_base_node/max_planning_retries] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_1/move_base_node/local_costmap/origin_x] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_1/move_base_node/local_costmap/origin_y] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_0/move_base_node/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/topic] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_th] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_0/move_base_node/global_costmap/base_scan/observation_persistence] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,321: +PARAM [/robot_0/move_base_node/local_costmap/max_obstacle_height] by /roslaunch
+[rosmaster.master][INFO] 2017-10-13 16:41:20,342: +PUB [/rosout] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,344: +SERVICE [/map_server/get_loggers] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,345: +SERVICE [/map_server/set_logger_level] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,350: +PUB [/rosout] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,354: +SERVICE [/stageros/get_loggers] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,355: +SERVICE [/stageros/set_logger_level] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,357: +SUB [/clock] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,362: +SERVICE [/static_map] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,363: +SUB [/clock] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,365: +PUB [/map_metadata] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,376: +PUB [/tf] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,377: +PUB [/map] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,379: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,381: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,405: +PUB [/rosout] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,406: +SERVICE [/robot_0/fake_localization/get_loggers] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,407: +SERVICE [/robot_0/fake_localization/set_logger_level] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,411: +SUB [/clock] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,412: +PUB [/robot_0/amcl_pose] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,413: +PUB [/robot_0/particlecloud] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,413: +PUB [/tf] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,420: +SUB [/tf] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,427: +SUB [/tf_static] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,461: +PUB [/rosout] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,465: +SERVICE [/robot_1/fake_localization/get_loggers] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,466: +SUB [/robot_0/base_pose_ground_truth] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,467: +SERVICE [/robot_1/fake_localization/set_logger_level] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,483: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,484: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,485: +SUB [/robot_0/initialpose] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,486: +SUB [/clock] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,490: +PUB [/robot_1/amcl_pose] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,498: +PUB [/robot_1/particlecloud] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,507: +PUB [/tf] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,553: +SUB [/tf] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,586: +SUB [/tf_static] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,587: publisherUpdate[/tf] -> http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,607: +SUB [/robot_1/base_pose_ground_truth] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,617: +SUB [/robot_1/initialpose] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,737: +PUB [/rosout] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,741: +SUB [/clock] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,742: +SERVICE [/robot_0/client_node/get_loggers] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,744: +SERVICE [/robot_0/client_node/set_logger_level] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,747: +SERVICE [/robot_0/robot_position] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,749: +SERVICE [/robot_0/crash] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,750: +SERVICE [/robot_0/cancel_patrol_task] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,751: +SUB [/tf] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,753: +PUB [/robot_0/patrol_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,755: +PUB [/robot_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,758: +SERVICE [/robot_0/client_node/tf_frames] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,765: +SUB [/robot_0/coordinator_directions] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,774: +SUB [/collision_positions] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,778: +PUB [/collision_positions] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,781: +PUB [/navigation_activity_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,789: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,790: publisherUpdate[/collision_positions] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,792: +SUB [/navigation_activity_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,797: +PUB [/rosout] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,802: +SUB [/clock] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,805: +SERVICE [/distance_collector/get_loggers] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,806: +SERVICE [/distance_collector/set_logger_level] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,810: +SUB [/all_distances] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,813: +SUB [/robot_0/base_pose_ground_truth] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,825: +PUB [/robot_0/move_base/goal] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,832: +PUB [/robot_0/move_base/cancel] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,841: +SUB [/robot_0/move_base/status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,844: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,854: +SUB [/robot_0/move_base/result] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,861: +SUB [/robot_0/move_base/feedback] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,933: +PUB [/rosout] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,939: +SUB [/clock] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,941: +SERVICE [/robot_1/client_node/get_loggers] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,942: +SERVICE [/robot_1/client_node/set_logger_level] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,945: +SERVICE [/robot_1/robot_position] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,946: +SERVICE [/robot_1/crash] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,946: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,947: +SUB [/tf] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,951: +SERVICE [/robot_1/cancel_patrol_task] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,957: +PUB [/robot_1/patrol_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,959: +PUB [/robot_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,966: +SERVICE [/robot_1/client_node/tf_frames] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,972: +SUB [/robot_1/coordinator_directions] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,978: +SUB [/collision_positions] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,985: +PUB [/collision_positions] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,986: +PUB [/navigation_activity_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,993: publisherUpdate[/collision_positions] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,994: publisherUpdate[/collision_positions] -> http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:20,995: publisherUpdate[/navigation_activity_status] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,000: +SUB [/navigation_activity_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,003: +SUB [/robot_1/base_pose_ground_truth] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,015: +PUB [/robot_1/move_base/goal] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,018: +PUB [/robot_1/move_base/cancel] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,022: +PUB [/rosout] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,022: +SUB [/robot_1/move_base/status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,026: +SUB [/clock] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,027: +SUB [/robot_1/move_base/result] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,031: +SERVICE [/robot_1/distance_calculator/get_loggers] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,031: +SUB [/robot_1/move_base/feedback] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,033: +SERVICE [/robot_1/distance_calculator/set_logger_level] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,036: +SUB [/robot_1/base_pose_ground_truth] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,039: +SUB [/action_done] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,042: +PUB [/all_distances] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,047: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,049: publisherUpdate[/all_distances] -> http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,201: +PUB [/rosout] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,204: +SUB [/clock] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,206: +SERVICE [/robot_0/distance_calculator/get_loggers] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,207: +SERVICE [/robot_0/distance_calculator/set_logger_level] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,209: +SUB [/robot_0/base_pose_ground_truth] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,211: +SUB [/action_done] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,213: +PUB [/all_distances] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,241: +PARAM [/use_sim_time] by /stageros
+[rosmaster.master][INFO] 2017-10-13 16:41:21,242: +PUB [/robot_0/odom] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,243: +PUB [/robot_0/base_pose_ground_truth] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,250: +SUB [/robot_0/cmd_vel] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,250: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,251: publisherUpdate[/all_distances] -> http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,252: publisherUpdate[/robot_0/base_pose_ground_truth] -> http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,253: publisherUpdate[/robot_0/base_pose_ground_truth] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,253: +PUB [/robot_0/base_scan] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,254: publisherUpdate[/robot_0/base_pose_ground_truth] -> http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,256: +PUB [/robot_1/odom] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,257: +PUB [/robot_1/base_pose_ground_truth] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,261: +SUB [/robot_1/cmd_vel] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,262: +PUB [/robot_1/base_scan] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,263: +PUB [/clock] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,264: +SERVICE [/reset_positions] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,296: publisherUpdate[/robot_1/base_pose_ground_truth] -> http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,297: publisherUpdate[/robot_1/base_pose_ground_truth] -> http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,298: publisherUpdate[/robot_1/base_pose_ground_truth] -> http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,299: publisherUpdate[/clock] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,300: publisherUpdate[/clock] -> http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,300: publisherUpdate[/clock] -> http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,301: publisherUpdate[/clock] -> http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,301: publisherUpdate[/clock] -> http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,302: publisherUpdate[/clock] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,303: publisherUpdate[/clock] -> http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,304: publisherUpdate[/clock] -> http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,305: publisherUpdate[/clock] -> http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,306: publisherUpdate[/clock] -> http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,375: +PUB [/rosout] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,376: +SERVICE [/multi_global_planner/get_loggers] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,376: +SERVICE [/multi_global_planner/set_logger_level] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,380: +SUB [/clock] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,385: +SUB [/tf] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,391: +SUB [/tf_static] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,407: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,509: +PUB [/rosout] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,509: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,510: +SERVICE [/robot_1/move_base_node/get_loggers] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,510: +SERVICE [/robot_1/move_base_node/set_logger_level] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,515: +SUB [/clock] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,521: +PUB [/rosout] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,523: +SERVICE [/robot_0/move_base_node/get_loggers] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,524: +SERVICE [/robot_0/move_base_node/set_logger_level] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,525: +SUB [/tf] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,529: +SUB [/clock] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,530: +SUB [/tf_static] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,538: +SUB [/tf] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,541: +SUB [/tf_static] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,555: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,610: +PUB [/robot_1/cmd_vel] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,610: publisherUpdate[/robot_1/cmd_vel] -> http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,612: +PUB [/robot_1/move_base_node/current_goal] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,613: +PUB [/robot_1/global_plan_waypoints] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,614: +PUB [/robot_0/cmd_vel] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,615: +PUB [/robot_1/move_base/goal] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,615: +PUB [/robot_0/move_base_node/current_goal] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,616: +PUB [/robot_0/global_plan_waypoints] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,617: +PUB [/robot_0/move_base/goal] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,621: +SUB [/robot_1/move_base_simple/goal] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,623: +SUB [/robot_0/move_base_simple/goal] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,656: publisherUpdate[/robot_0/cmd_vel] -> http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,669: +PARAM [/multi_global_planner/ltl_multi_planner/testParam] by /multi_global_planner
+[rosmaster.master][INFO] 2017-10-13 16:41:21,674: +PUB [/initpos] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,674: +SERVICE [/multi_global_planner/make_plan] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,675: +SERVICE [/multi_global_planner/get_waypoints] /multi_global_planner http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:41:21,878: +PARAM [/robot_1/move_base_node/global_costmap/static_layer/lethal_cost_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,879: +PARAM [/robot_0/move_base_node/global_costmap/static_layer/lethal_cost_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,879: -PARAM [/robot_1/move_base_node/global_costmap/lethal_cost_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,880: -PARAM [/robot_0/move_base_node/global_costmap/lethal_cost_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,883: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,884: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,884: -PARAM [/robot_1/move_base_node/global_costmap/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,885: -PARAM [/robot_0/move_base_node/global_costmap/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,887: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,887: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,893: -PARAM [/robot_0/move_base_node/global_costmap/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,894: -PARAM [/robot_1/move_base_node/global_costmap/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,896: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,896: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,897: -PARAM [/robot_1/move_base_node/global_costmap/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,897: -PARAM [/robot_0/move_base_node/global_costmap/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,899: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,900: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,900: -PARAM [/robot_0/move_base_node/global_costmap/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,901: -PARAM [/robot_1/move_base_node/global_costmap/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,903: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,903: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,904: -PARAM [/robot_1/move_base_node/global_costmap/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,904: -PARAM [/robot_0/move_base_node/global_costmap/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,907: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,907: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,908: -PARAM [/robot_0/move_base_node/global_costmap/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,909: -PARAM [/robot_1/move_base_node/global_costmap/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,911: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/raytrace_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,912: -PARAM [/robot_0/move_base_node/global_costmap/raytrace_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,912: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/raytrace_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,913: -PARAM [/robot_1/move_base_node/global_costmap/raytrace_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,914: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/obstacle_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,915: -PARAM [/robot_0/move_base_node/global_costmap/obstacle_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,916: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/obstacle_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,917: -PARAM [/robot_1/move_base_node/global_costmap/obstacle_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,920: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/base_scan] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,921: -PARAM [/robot_0/move_base_node/global_costmap/base_scan] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,922: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/base_scan] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,923: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/observation_sources] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,923: -PARAM [/robot_1/move_base_node/global_costmap/base_scan] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,924: -PARAM [/robot_0/move_base_node/global_costmap/observation_sources] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,926: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/observation_sources] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,926: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,927: -PARAM [/robot_1/move_base_node/global_costmap/observation_sources] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,927: -PARAM [/robot_0/move_base_node/global_costmap/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,929: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,930: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,930: -PARAM [/robot_1/move_base_node/global_costmap/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,931: -PARAM [/robot_0/move_base_node/global_costmap/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,932: +PARAM [/robot_0/move_base_node/global_costmap/plugins] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,933: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,933: -PARAM [/robot_1/move_base_node/global_costmap/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:21,935: +PARAM [/robot_1/move_base_node/global_costmap/plugins] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,177: +SUB [/map] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,179: +SUB [/map] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,471: +SERVICE [/robot_1/move_base_node/global_costmap/static_layer/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,471: +SERVICE [/robot_0/move_base_node/global_costmap/static_layer/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,473: +PUB [/robot_0/move_base_node/global_costmap/static_layer/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,473: +PUB [/robot_1/move_base_node/global_costmap/static_layer/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,474: +PUB [/robot_0/move_base_node/global_costmap/static_layer/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,474: +PUB [/robot_1/move_base_node/global_costmap/static_layer/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,475: +PARAM [/robot_0/move_base_node/global_costmap/static_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,476: +PARAM [/robot_1/move_base_node/global_costmap/static_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,476: +PARAM [/robot_0/move_base_node/global_costmap/static_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,477: +PARAM [/robot_1/move_base_node/global_costmap/static_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,510: +SUB [/robot_0/base_scan] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,513: +SUB [/robot_1/base_scan] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,513: +SERVICE [/robot_0/move_base_node/global_costmap/obstacle_layer/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,514: +PUB [/robot_0/move_base_node/global_costmap/obstacle_layer/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,515: +PUB [/robot_0/move_base_node/global_costmap/obstacle_layer/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,515: +SERVICE [/robot_1/move_base_node/global_costmap/obstacle_layer/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,516: +PUB [/robot_1/move_base_node/global_costmap/obstacle_layer/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,517: +PUB [/robot_1/move_base_node/global_costmap/obstacle_layer/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,525: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,526: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,527: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,528: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,528: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,529: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,529: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,530: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,530: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,530: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,531: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,531: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,532: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,533: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,533: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,534: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,534: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/combination_method] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,534: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/combination_method] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,535: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,536: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,536: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,537: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,538: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,538: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,539: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,540: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,540: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,541: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,541: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,542: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,542: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,543: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,543: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,544: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,544: +PARAM [/robot_0/move_base_node/global_costmap/obstacle_layer/combination_method] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,545: +PARAM [/robot_1/move_base_node/global_costmap/obstacle_layer/combination_method] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,546: +PUB [/robot_0/move_base_node/global_costmap/obstacle_layer/clearing_endpoints] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,547: +PUB [/robot_1/move_base_node/global_costmap/obstacle_layer/clearing_endpoints] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,547: +SERVICE [/robot_0/move_base_node/global_costmap/inflation_layer/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,548: +SERVICE [/robot_1/move_base_node/global_costmap/inflation_layer/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,549: +PUB [/robot_0/move_base_node/global_costmap/inflation_layer/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,550: +PUB [/robot_1/move_base_node/global_costmap/inflation_layer/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,550: +PUB [/robot_0/move_base_node/global_costmap/inflation_layer/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,551: +PUB [/robot_1/move_base_node/global_costmap/inflation_layer/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,553: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,554: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,555: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,556: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,556: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,558: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,558: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,559: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,560: +PARAM [/robot_0/move_base_node/global_costmap/inflation_layer/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,560: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,561: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,562: +PARAM [/robot_1/move_base_node/global_costmap/inflation_layer/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,566: +SUB [/robot_0/move_base_node/global_costmap/footprint] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,569: +SUB [/robot_1/move_base_node/global_costmap/footprint] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,569: +PUB [/robot_0/move_base_node/global_costmap/footprint] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,573: +PUB [/robot_1/move_base_node/global_costmap/footprint] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,574: +PARAM [/robot_0/move_base_node/global_costmap/robot_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,575: +PUB [/robot_0/move_base_node/global_costmap/costmap] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,577: +PUB [/robot_0/move_base_node/global_costmap/costmap_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,578: +PARAM [/robot_1/move_base_node/global_costmap/robot_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,579: +SERVICE [/robot_0/move_base_node/global_costmap/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,579: +PUB [/robot_1/move_base_node/global_costmap/costmap] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,580: +PUB [/robot_0/move_base_node/global_costmap/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,580: +PUB [/robot_1/move_base_node/global_costmap/costmap_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,581: +PUB [/robot_0/move_base_node/global_costmap/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,583: +SERVICE [/robot_1/move_base_node/global_costmap/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,584: +PUB [/robot_1/move_base_node/global_costmap/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,585: +PUB [/robot_1/move_base_node/global_costmap/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,595: +PARAM [/robot_0/move_base_node/global_costmap/transform_tolerance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,596: +PARAM [/robot_0/move_base_node/global_costmap/update_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,597: +PARAM [/robot_1/move_base_node/global_costmap/transform_tolerance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,597: +PARAM [/robot_0/move_base_node/global_costmap/publish_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,598: +PARAM [/robot_1/move_base_node/global_costmap/update_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,598: +PARAM [/robot_0/move_base_node/global_costmap/width] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,599: +PARAM [/robot_1/move_base_node/global_costmap/publish_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,599: +PARAM [/robot_0/move_base_node/global_costmap/height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,600: +PARAM [/robot_1/move_base_node/global_costmap/width] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,600: +PARAM [/robot_0/move_base_node/global_costmap/resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,601: +PARAM [/robot_1/move_base_node/global_costmap/height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,601: +PARAM [/robot_1/move_base_node/global_costmap/resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,602: +PARAM [/robot_0/move_base_node/global_costmap/origin_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,602: +PARAM [/robot_1/move_base_node/global_costmap/origin_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,603: +PARAM [/robot_0/move_base_node/global_costmap/origin_y] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,603: +PARAM [/robot_1/move_base_node/global_costmap/origin_y] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,604: +PARAM [/robot_1/move_base_node/global_costmap/footprint] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,604: +PARAM [/robot_0/move_base_node/global_costmap/footprint] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,605: +PARAM [/robot_1/move_base_node/global_costmap/robot_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,605: +PARAM [/robot_0/move_base_node/global_costmap/robot_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,606: +PARAM [/robot_1/move_base_node/global_costmap/footprint_padding] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,607: +PARAM [/robot_0/move_base_node/global_costmap/footprint_padding] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,613: publisherUpdate[/robot_0/move_base_node/global_costmap/footprint] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,614: publisherUpdate[/robot_1/move_base_node/global_costmap/footprint] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,614: +PARAM [/robot_1/move_base_node/global_costmap/transform_tolerance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,615: +PARAM [/robot_0/move_base_node/global_costmap/transform_tolerance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,617: +PARAM [/robot_1/move_base_node/global_costmap/update_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,619: +PARAM [/robot_0/move_base_node/global_costmap/update_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,623: +PARAM [/robot_1/move_base_node/global_costmap/publish_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,624: +PARAM [/robot_0/move_base_node/global_costmap/publish_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,625: +PARAM [/robot_1/move_base_node/global_costmap/width] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,626: +PARAM [/robot_0/move_base_node/global_costmap/width] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,627: +PARAM [/robot_1/move_base_node/global_costmap/height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,627: +PARAM [/robot_0/move_base_node/global_costmap/height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,628: +PARAM [/robot_1/move_base_node/global_costmap/resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,628: +PARAM [/robot_0/move_base_node/global_costmap/resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,629: +PARAM [/robot_1/move_base_node/global_costmap/origin_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,629: +PARAM [/robot_0/move_base_node/global_costmap/origin_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,630: +PARAM [/robot_1/move_base_node/global_costmap/origin_y] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,630: +PARAM [/robot_0/move_base_node/global_costmap/origin_y] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,631: +PARAM [/robot_1/move_base_node/global_costmap/footprint] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,632: +PARAM [/robot_0/move_base_node/global_costmap/footprint] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,633: +PARAM [/robot_1/move_base_node/global_costmap/robot_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,634: +PARAM [/robot_0/move_base_node/global_costmap/robot_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,635: +PARAM [/robot_0/move_base_node/global_costmap/footprint_padding] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,635: +PARAM [/robot_1/move_base_node/global_costmap/footprint_padding] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,726: +PUB [/robot_1/move_base_node/GlobalPlanner/plan] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,727: +PUB [/robot_1/move_base_node/GlobalPlanner/potential] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,730: +SERVICE [/robot_1/move_base_node/GlobalPlanner/make_plan] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,731: +SERVICE [/robot_1/move_base_node/GlobalPlanner/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,732: +PUB [/robot_1/move_base_node/GlobalPlanner/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,732: +PUB [/robot_1/move_base_node/GlobalPlanner/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,735: +PARAM [/robot_1/move_base_node/GlobalPlanner/lethal_cost] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,736: +PARAM [/robot_1/move_base_node/GlobalPlanner/neutral_cost] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,736: +PARAM [/robot_1/move_base_node/GlobalPlanner/cost_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,738: +PARAM [/robot_1/move_base_node/GlobalPlanner/publish_potential] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,740: +PARAM [/robot_1/move_base_node/GlobalPlanner/orientation_mode] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,741: +PARAM [/robot_1/move_base_node/GlobalPlanner/lethal_cost] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,742: +PUB [/robot_0/move_base_node/GlobalPlanner/plan] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,742: +PARAM [/robot_1/move_base_node/GlobalPlanner/neutral_cost] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,743: +PUB [/robot_0/move_base_node/GlobalPlanner/potential] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,744: +PARAM [/robot_1/move_base_node/GlobalPlanner/cost_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,744: +PARAM [/robot_1/move_base_node/GlobalPlanner/publish_potential] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,746: +PARAM [/robot_1/move_base_node/GlobalPlanner/orientation_mode] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,751: +SERVICE [/robot_0/move_base_node/GlobalPlanner/make_plan] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,752: +SERVICE [/robot_0/move_base_node/GlobalPlanner/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,753: +PUB [/robot_0/move_base_node/GlobalPlanner/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,755: +PUB [/robot_0/move_base_node/GlobalPlanner/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,761: +PARAM [/robot_0/move_base_node/GlobalPlanner/lethal_cost] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,762: +PARAM [/robot_0/move_base_node/GlobalPlanner/neutral_cost] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,763: +PARAM [/robot_0/move_base_node/GlobalPlanner/cost_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,763: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,764: +PARAM [/robot_0/move_base_node/GlobalPlanner/publish_potential] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,764: -PARAM [/robot_1/move_base_node/local_costmap/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,765: +PARAM [/robot_0/move_base_node/GlobalPlanner/orientation_mode] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,766: +PARAM [/robot_0/move_base_node/GlobalPlanner/lethal_cost] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,766: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,768: +PARAM [/robot_0/move_base_node/GlobalPlanner/neutral_cost] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,768: -PARAM [/robot_1/move_base_node/local_costmap/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,769: +PARAM [/robot_0/move_base_node/GlobalPlanner/cost_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,770: +PARAM [/robot_0/move_base_node/GlobalPlanner/publish_potential] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,771: +PARAM [/robot_0/move_base_node/GlobalPlanner/orientation_mode] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,772: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,773: -PARAM [/robot_1/move_base_node/local_costmap/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,775: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,776: -PARAM [/robot_1/move_base_node/local_costmap/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,779: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,780: -PARAM [/robot_1/move_base_node/local_costmap/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,782: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/publish_voxel_map] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,783: -PARAM [/robot_1/move_base_node/local_costmap/publish_voxel_map] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,786: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,787: -PARAM [/robot_1/move_base_node/local_costmap/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,788: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,789: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/raytrace_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,790: -PARAM [/robot_0/move_base_node/local_costmap/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,790: -PARAM [/robot_1/move_base_node/local_costmap/raytrace_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,793: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,793: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/obstacle_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,794: -PARAM [/robot_0/move_base_node/local_costmap/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,794: -PARAM [/robot_1/move_base_node/local_costmap/obstacle_range] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,797: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,798: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/base_scan] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,799: -PARAM [/robot_0/move_base_node/local_costmap/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,799: -PARAM [/robot_1/move_base_node/local_costmap/base_scan] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,801: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,801: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/observation_sources] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,802: -PARAM [/robot_0/move_base_node/local_costmap/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,802: -PARAM [/robot_1/move_base_node/local_costmap/observation_sources] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,805: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,805: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,806: -PARAM [/robot_0/move_base_node/local_costmap/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,807: -PARAM [/robot_1/move_base_node/local_costmap/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,813: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/publish_voxel_map] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,814: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,814: -PARAM [/robot_0/move_base_node/local_costmap/publish_voxel_map] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,815: -PARAM [/robot_1/move_base_node/local_costmap/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,815: +PARAM [/robot_1/move_base_node/local_costmap/plugins] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,817: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,818: -PARAM [/robot_0/move_base_node/local_costmap/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,838: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/raytrace_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,839: -PARAM [/robot_0/move_base_node/local_costmap/raytrace_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,841: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/obstacle_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,842: -PARAM [/robot_0/move_base_node/local_costmap/obstacle_range] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,845: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/base_scan] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,845: -PARAM [/robot_0/move_base_node/local_costmap/base_scan] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,847: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/observation_sources] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,847: -PARAM [/robot_0/move_base_node/local_costmap/observation_sources] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,849: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,850: -PARAM [/robot_0/move_base_node/local_costmap/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,854: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,855: -PARAM [/robot_0/move_base_node/local_costmap/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,857: +PARAM [/robot_0/move_base_node/local_costmap/plugins] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,878: +SERVICE [/robot_1/move_base_node/local_costmap/obstacle_layer/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,879: +PUB [/robot_1/move_base_node/local_costmap/obstacle_layer/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,880: +PUB [/robot_1/move_base_node/local_costmap/obstacle_layer/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,886: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,886: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,889: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,890: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,891: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,891: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,892: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,894: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,895: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/combination_method] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,896: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,897: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,898: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/max_obstacle_height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,899: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/origin_z] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,900: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/z_resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,901: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/z_voxels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,902: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/unknown_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,902: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/mark_threshold] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,904: +PARAM [/robot_1/move_base_node/local_costmap/obstacle_layer/combination_method] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,908: +PUB [/robot_1/move_base_node/local_costmap/obstacle_layer/clearing_endpoints] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,909: +SERVICE [/robot_1/move_base_node/local_costmap/inflation_layer/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,910: +PUB [/robot_1/move_base_node/local_costmap/inflation_layer/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,911: +PUB [/robot_1/move_base_node/local_costmap/inflation_layer/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,914: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,915: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,916: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,917: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,918: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/cost_scaling_factor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,920: +PARAM [/robot_1/move_base_node/local_costmap/inflation_layer/inflation_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,923: +SERVICE [/robot_0/move_base_node/local_costmap/obstacle_layer/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,925: +PUB [/robot_0/move_base_node/local_costmap/obstacle_layer/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,925: +PUB [/robot_0/move_base_node/local_costmap/obstacle_layer/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,928: +SUB [/robot_1/move_base_node/local_costmap/footprint] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,930: +PUB [/robot_1/move_base_node/local_costmap/footprint] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,933: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,934: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,934: +PARAM [/robot_1/move_base_node/local_costmap/robot_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,935: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,935: +PUB [/robot_1/move_base_node/local_costmap/costmap] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,936: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,937: +PUB [/robot_1/move_base_node/local_costmap/costmap_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,937: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,938: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,938: +SERVICE [/robot_1/move_base_node/local_costmap/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,939: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,939: +PUB [/robot_1/move_base_node/local_costmap/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,940: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,940: +PUB [/robot_1/move_base_node/local_costmap/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,941: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/combination_method] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,942: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,943: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/footprint_clearing_enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,944: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/max_obstacle_height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,945: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/origin_z] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,946: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/z_resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,947: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/z_voxels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,948: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/unknown_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,949: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/mark_threshold] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,950: +PARAM [/robot_0/move_base_node/local_costmap/obstacle_layer/combination_method] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,950: +PARAM [/robot_1/move_base_node/local_costmap/transform_tolerance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,951: +PARAM [/robot_1/move_base_node/local_costmap/update_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,952: +PARAM [/robot_1/move_base_node/local_costmap/publish_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,953: +PUB [/robot_0/move_base_node/local_costmap/obstacle_layer/clearing_endpoints] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,953: +PARAM [/robot_1/move_base_node/local_costmap/width] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,954: +SERVICE [/robot_0/move_base_node/local_costmap/inflation_layer/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,955: +PARAM [/robot_1/move_base_node/local_costmap/height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,955: +PUB [/robot_0/move_base_node/local_costmap/inflation_layer/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,956: +PUB [/robot_0/move_base_node/local_costmap/inflation_layer/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,957: +PARAM [/robot_1/move_base_node/local_costmap/resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,958: +PARAM [/robot_1/move_base_node/local_costmap/origin_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,960: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,960: publisherUpdate[/robot_1/move_base_node/local_costmap/footprint] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,960: +PARAM [/robot_1/move_base_node/local_costmap/origin_y] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,961: +PARAM [/robot_1/move_base_node/local_costmap/footprint] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,962: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,962: +PARAM [/robot_1/move_base_node/local_costmap/robot_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,963: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,963: +PARAM [/robot_1/move_base_node/local_costmap/footprint_padding] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,964: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,964: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/cost_scaling_factor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,966: +PARAM [/robot_1/move_base_node/local_costmap/transform_tolerance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,966: +PARAM [/robot_0/move_base_node/local_costmap/inflation_layer/inflation_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,967: +PARAM [/robot_1/move_base_node/local_costmap/update_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,968: +PARAM [/robot_1/move_base_node/local_costmap/publish_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,969: +PARAM [/robot_1/move_base_node/local_costmap/width] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,970: +PARAM [/robot_1/move_base_node/local_costmap/height] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,971: +PARAM [/robot_1/move_base_node/local_costmap/resolution] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,973: +PARAM [/robot_1/move_base_node/local_costmap/origin_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,974: +PARAM [/robot_1/move_base_node/local_costmap/origin_y] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,975: +SUB [/robot_0/move_base_node/local_costmap/footprint] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,976: +PARAM [/robot_1/move_base_node/local_costmap/footprint] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,977: +PARAM [/robot_1/move_base_node/local_costmap/robot_radius] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,978: +PUB [/robot_0/move_base_node/local_costmap/footprint] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,978: +PARAM [/robot_1/move_base_node/local_costmap/footprint_padding] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,981: +PARAM [/robot_0/move_base_node/local_costmap/robot_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,982: +PUB [/robot_0/move_base_node/local_costmap/costmap] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,982: +PUB [/robot_0/move_base_node/local_costmap/costmap_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,983: +SERVICE [/robot_0/move_base_node/local_costmap/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,984: +PUB [/robot_0/move_base_node/local_costmap/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,985: +PUB [/robot_0/move_base_node/local_costmap/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:22,990: +PARAM [/robot_0/move_base_node/local_costmap/transform_tolerance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,991: +PARAM [/robot_0/move_base_node/local_costmap/update_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,991: +PARAM [/robot_0/move_base_node/local_costmap/publish_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,992: +PARAM [/robot_0/move_base_node/local_costmap/width] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,992: +PARAM [/robot_0/move_base_node/local_costmap/height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,993: +PARAM [/robot_0/move_base_node/local_costmap/resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,994: +PARAM [/robot_0/move_base_node/local_costmap/origin_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,994: +PARAM [/robot_0/move_base_node/local_costmap/origin_y] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,995: +PARAM [/robot_0/move_base_node/local_costmap/footprint] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,995: +PARAM [/robot_0/move_base_node/local_costmap/robot_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,996: +PARAM [/robot_0/move_base_node/local_costmap/footprint_padding] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,998: +PARAM [/robot_0/move_base_node/local_costmap/transform_tolerance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:22,999: +PARAM [/robot_0/move_base_node/local_costmap/update_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,000: +PARAM [/robot_0/move_base_node/local_costmap/publish_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,001: +PARAM [/robot_0/move_base_node/local_costmap/width] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,002: +PARAM [/robot_0/move_base_node/local_costmap/height] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,003: +PARAM [/robot_0/move_base_node/local_costmap/resolution] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,004: +PARAM [/robot_0/move_base_node/local_costmap/origin_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,005: +PARAM [/robot_0/move_base_node/local_costmap/origin_y] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,005: +PARAM [/robot_0/move_base_node/local_costmap/footprint] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,006: +PARAM [/robot_0/move_base_node/local_costmap/robot_radius] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,007: +PARAM [/robot_0/move_base_node/local_costmap/footprint_padding] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,015: publisherUpdate[/robot_0/move_base_node/local_costmap/footprint] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,111: +SUB [/robot_1/odom] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,114: +PUB [/robot_1/move_base_node/TrajectoryPlannerROS/global_plan] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,114: +PUB [/robot_1/move_base_node/TrajectoryPlannerROS/local_plan] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,126: +SUB [/robot_0/odom] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,130: +PUB [/robot_0/move_base_node/TrajectoryPlannerROS/global_plan] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,131: +PUB [/robot_0/move_base_node/TrajectoryPlannerROS/local_plan] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,169: +PUB [/robot_1/move_base_node/TrajectoryPlannerROS/cost_cloud] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,170: +SERVICE [/robot_1/move_base_node/TrajectoryPlannerROS/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,171: +PUB [/robot_1/move_base_node/TrajectoryPlannerROS/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,173: +PUB [/robot_1/move_base_node/TrajectoryPlannerROS/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,181: +PUB [/robot_0/move_base_node/TrajectoryPlannerROS/cost_cloud] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,183: +SERVICE [/robot_0/move_base_node/TrajectoryPlannerROS/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,184: +PUB [/robot_0/move_base_node/TrajectoryPlannerROS/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,185: +PUB [/robot_0/move_base_node/TrajectoryPlannerROS/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,192: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,193: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_y] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,194: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,195: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/max_vel_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,196: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_vel_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,197: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/max_vel_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,198: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_vel_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,199: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_in_place_vel_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,199: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/sim_time] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,200: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/sim_granularity] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,202: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/angular_sim_granularity] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,203: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/pdist_scale] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,204: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/gdist_scale] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,205: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/occdist_scale] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,206: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/oscillation_reset_dist] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,207: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,207: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_reset_dist] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,208: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_y] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,208: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_reset_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,209: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,209: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/vx_samples] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,210: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/max_vel_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,210: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/vtheta_samples] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,211: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_vel_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,211: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_lookahead] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,212: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/max_vel_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,212: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/holonomic_robot] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,213: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_vel_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,214: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_vel] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,214: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_in_place_vel_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,215: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/sim_time] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,215: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/dwa] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,216: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/sim_granularity] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,217: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_scoring] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,218: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/angular_sim_granularity] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,218: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/pdist_scale] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,219: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_scoring_timestep] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,220: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/gdist_scale] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,220: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/simple_attractor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,221: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/occdist_scale] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,221: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/y_vels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,222: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/restore_defaults] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,222: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/oscillation_reset_dist] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,223: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_reset_dist] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,223: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,224: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_reset_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,224: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_y] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,225: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/vx_samples] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,225: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/acc_lim_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,226: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/vtheta_samples] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,226: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/max_vel_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,227: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_lookahead] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,227: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_vel_x] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,228: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/holonomic_robot] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,228: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/max_vel_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,229: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_vel_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,229: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_vel] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,230: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/min_in_place_vel_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,230: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/dwa] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,231: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/sim_time] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,231: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/sim_granularity] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,231: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_scoring] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,232: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_scoring_timestep] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,233: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/angular_sim_granularity] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,233: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/simple_attractor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,234: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/pdist_scale] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,234: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/y_vels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,234: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/gdist_scale] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,235: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/restore_defaults] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,235: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/occdist_scale] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,236: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,236: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/oscillation_reset_dist] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,237: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_y] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,238: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_reset_dist] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,238: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/acc_lim_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,239: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_reset_theta] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,240: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/max_vel_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,240: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/vx_samples] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,241: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_vel_x] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,241: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/vtheta_samples] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,242: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/max_vel_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,242: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_lookahead] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,243: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/holonomic_robot] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,243: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_vel_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,244: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/escape_vel] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,244: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/min_in_place_vel_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,245: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/dwa] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,245: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/sim_time] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,246: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_scoring] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,246: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/sim_granularity] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,247: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/heading_scoring_timestep] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,247: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/angular_sim_granularity] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,248: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/simple_attractor] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,249: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/pdist_scale] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,249: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/y_vels] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,250: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/gdist_scale] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,250: +PARAM [/robot_1/move_base_node/TrajectoryPlannerROS/restore_defaults] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,250: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/occdist_scale] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,251: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/oscillation_reset_dist] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,252: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_reset_dist] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,252: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_reset_theta] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,253: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/vx_samples] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,253: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/vtheta_samples] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,254: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_lookahead] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,254: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/holonomic_robot] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,255: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/escape_vel] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,256: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/dwa] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,256: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_scoring] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,257: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/heading_scoring_timestep] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,257: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/simple_attractor] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,258: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/y_vels] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,258: +PARAM [/robot_0/move_base_node/TrajectoryPlannerROS/restore_defaults] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,369: +SERVICE [/robot_1/move_base_node/make_plan] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,370: +SERVICE [/robot_1/move_base_node/clear_costmaps] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,371: +PARAM [/robot_1/move_base_node/conservative_reset/reset_distance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,373: +PARAM [/robot_1/move_base_node/aggressive_reset/reset_distance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,464: +PUB [/robot_1/move_base/result] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,464: +PUB [/robot_1/move_base/feedback] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,465: +PUB [/robot_1/move_base/status] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,469: +SERVICE [/robot_0/move_base_node/make_plan] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,470: +SERVICE [/robot_0/move_base_node/clear_costmaps] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,472: +PARAM [/robot_0/move_base_node/conservative_reset/reset_distance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,473: +PARAM [/robot_0/move_base_node/aggressive_reset/reset_distance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,473: +SUB [/robot_1/move_base/goal] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,476: +SUB [/robot_1/move_base/cancel] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,477: +SERVICE [/robot_1/move_base_node/set_parameters] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,478: +PUB [/robot_1/move_base_node/parameter_descriptions] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,479: +PUB [/robot_1/move_base_node/parameter_updates] /robot_1/move_base_node http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,487: +PARAM [/robot_1/move_base_node/base_global_planner] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,487: +PARAM [/robot_1/move_base_node/base_local_planner] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,492: +PARAM [/robot_1/move_base_node/planner_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,493: +PARAM [/robot_1/move_base_node/controller_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,494: +PARAM [/robot_1/move_base_node/planner_patience] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,494: +PARAM [/robot_1/move_base_node/controller_patience] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,495: +PARAM [/robot_1/move_base_node/max_planning_retries] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,495: +PARAM [/robot_1/move_base_node/conservative_reset_dist] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,496: +PARAM [/robot_1/move_base_node/recovery_behavior_enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,496: +PARAM [/robot_1/move_base_node/clearing_rotation_allowed] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,497: +PARAM [/robot_1/move_base_node/shutdown_costmaps] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,497: +PARAM [/robot_1/move_base_node/oscillation_timeout] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,498: +PARAM [/robot_1/move_base_node/oscillation_distance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,499: +PARAM [/robot_1/move_base_node/restore_defaults] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,500: +PARAM [/robot_1/move_base_node/base_global_planner] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,502: +PARAM [/robot_1/move_base_node/base_local_planner] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,503: +PARAM [/robot_1/move_base_node/planner_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,503: +PARAM [/robot_1/move_base_node/controller_frequency] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,504: +PARAM [/robot_1/move_base_node/planner_patience] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,504: +PARAM [/robot_1/move_base_node/controller_patience] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,505: +PARAM [/robot_1/move_base_node/max_planning_retries] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,505: +PARAM [/robot_1/move_base_node/conservative_reset_dist] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,506: +PARAM [/robot_1/move_base_node/recovery_behavior_enabled] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,506: +PARAM [/robot_1/move_base_node/clearing_rotation_allowed] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,507: +PARAM [/robot_1/move_base_node/shutdown_costmaps] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,507: +PARAM [/robot_1/move_base_node/oscillation_timeout] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,508: +PARAM [/robot_1/move_base_node/oscillation_distance] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,508: +PARAM [/robot_1/move_base_node/restore_defaults] by /robot_1/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,517: publisherUpdate[/robot_1/move_base/result] -> http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,519: publisherUpdate[/robot_1/move_base/feedback] -> http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,520: publisherUpdate[/robot_1/move_base/status] -> http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,560: +PUB [/robot_0/move_base/result] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,561: +PUB [/robot_0/move_base/feedback] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,561: +PUB [/robot_0/move_base/status] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,562: publisherUpdate[/robot_0/move_base/result] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,563: publisherUpdate[/robot_0/move_base/feedback] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,565: publisherUpdate[/robot_0/move_base/status] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,569: +SUB [/robot_0/move_base/goal] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,577: +SUB [/robot_0/move_base/cancel] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,578: +SERVICE [/robot_0/move_base_node/set_parameters] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,579: +PUB [/robot_0/move_base_node/parameter_descriptions] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,580: +PUB [/robot_0/move_base_node/parameter_updates] /robot_0/move_base_node http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:41:23,587: +PARAM [/robot_0/move_base_node/base_global_planner] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,588: +PARAM [/robot_0/move_base_node/base_local_planner] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,588: +PARAM [/robot_0/move_base_node/planner_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,589: +PARAM [/robot_0/move_base_node/controller_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,590: +PARAM [/robot_0/move_base_node/planner_patience] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,590: +PARAM [/robot_0/move_base_node/controller_patience] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,591: +PARAM [/robot_0/move_base_node/max_planning_retries] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,591: +PARAM [/robot_0/move_base_node/conservative_reset_dist] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,592: +PARAM [/robot_0/move_base_node/recovery_behavior_enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,592: +PARAM [/robot_0/move_base_node/clearing_rotation_allowed] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,593: +PARAM [/robot_0/move_base_node/shutdown_costmaps] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,594: +PARAM [/robot_0/move_base_node/oscillation_timeout] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,594: +PARAM [/robot_0/move_base_node/oscillation_distance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,595: +PARAM [/robot_0/move_base_node/restore_defaults] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,595: +PARAM [/robot_0/move_base_node/base_global_planner] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,596: +PARAM [/robot_0/move_base_node/base_local_planner] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,596: +PARAM [/robot_0/move_base_node/planner_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,597: +PARAM [/robot_0/move_base_node/controller_frequency] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,597: +PARAM [/robot_0/move_base_node/planner_patience] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,598: +PARAM [/robot_0/move_base_node/controller_patience] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,598: +PARAM [/robot_0/move_base_node/max_planning_retries] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,599: +PARAM [/robot_0/move_base_node/conservative_reset_dist] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,599: +PARAM [/robot_0/move_base_node/recovery_behavior_enabled] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,600: +PARAM [/robot_0/move_base_node/clearing_rotation_allowed] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,600: +PARAM [/robot_0/move_base_node/shutdown_costmaps] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,601: +PARAM [/robot_0/move_base_node/oscillation_timeout] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,601: +PARAM [/robot_0/move_base_node/oscillation_distance] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:23,601: +PARAM [/robot_0/move_base_node/restore_defaults] by /robot_0/move_base_node
+[rosmaster.master][INFO] 2017-10-13 16:41:42,982: +PUB [/robot_0/coordinator_directions] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:42,983: +SUB [/robot_0/patrol_status] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:42,984: +SUB [/robot_status] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:42,987: publisherUpdate[/robot_0/coordinator_directions] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:41:43,082: +PUB [/rosout] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:43,084: +SUB [/clock] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:43,086: +SERVICE [/coordinator_3423_1507905702946/get_loggers] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:43,087: +SERVICE [/coordinator_3423_1507905702946/set_logger_level] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:41:43,088: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -SUB [/robot_0/patrol_status] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -SUB [/clock] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -SUB [/robot_status] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -PUB [/robot_0/coordinator_directions] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -PUB [/rosout] /coordinator_3423_1507905702946 http://wks-51-57:44455/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -SERVICE [/coordinator_3423_1507905702946/get_loggers] /coordinator_3423_1507905702946 rosrpc://wks-51-57:33920
+[rosmaster.master][INFO] 2017-10-13 16:42:35,202: -SERVICE [/coordinator_3423_1507905702946/set_logger_level] /coordinator_3423_1507905702946 rosrpc://wks-51-57:33920
+[rosmaster.master][INFO] 2017-10-13 16:42:35,243: publisherUpdate[/robot_0/coordinator_directions] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:35,244: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,802: -SUB [/robot_1/base_pose_ground_truth] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,803: -SUB [/clock] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,803: -SUB [/action_done] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,803: -PUB [/all_distances] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,803: -PUB [/rosout] /robot_1/distance_calculator http://wks-51-57:33292/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,803: -SERVICE [/robot_1/distance_calculator/set_logger_level] /robot_1/distance_calculator rosrpc://wks-51-57:39878
+[rosmaster.master][INFO] 2017-10-13 16:42:36,803: -SERVICE [/robot_1/distance_calculator/get_loggers] /robot_1/distance_calculator rosrpc://wks-51-57:39878
+[rosmaster.master][INFO] 2017-10-13 16:42:36,804: -SUB [/robot_1/base_pose_ground_truth] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/robot_1/move_base/result] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/robot_1/coordinator_directions] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/tf] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/clock] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/robot_1/move_base/feedback] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/navigation_activity_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/collision_positions] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,805: -SUB [/robot_1/move_base/status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,809: -PUB [/robot_1/patrol_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,809: -PUB [/robot_1/move_base/cancel] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,810: -PUB [/rosout] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,810: -PUB [/robot_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,810: -PUB [/robot_1/move_base/goal] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,810: -PUB [/navigation_activity_status] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,810: -PUB [/collision_positions] /robot_1/client_node http://wks-51-57:41539/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,816: -SUB [/clock] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,816: -SUB [/all_distances] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,816: -PUB [/rosout] /distance_collector http://wks-51-57:33554/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,816: -SERVICE [/distance_collector/set_logger_level] /distance_collector rosrpc://wks-51-57:41386
+[rosmaster.master][INFO] 2017-10-13 16:42:36,816: -SERVICE [/distance_collector/get_loggers] /distance_collector rosrpc://wks-51-57:41386
+[rosmaster.master][INFO] 2017-10-13 16:42:36,817: -SERVICE [/robot_1/client_node/set_logger_level] /robot_1/client_node rosrpc://wks-51-57:45625
+[rosmaster.master][INFO] 2017-10-13 16:42:36,817: -SERVICE [/robot_1/robot_position] /robot_1/client_node rosrpc://wks-51-57:45625
+[rosmaster.master][INFO] 2017-10-13 16:42:36,817: -SERVICE [/robot_1/cancel_patrol_task] /robot_1/client_node rosrpc://wks-51-57:45625
+[rosmaster.master][INFO] 2017-10-13 16:42:36,817: -SERVICE [/robot_1/client_node/get_loggers] /robot_1/client_node rosrpc://wks-51-57:45625
+[rosmaster.master][INFO] 2017-10-13 16:42:36,817: -SERVICE [/robot_1/client_node/tf_frames] /robot_1/client_node rosrpc://wks-51-57:45625
+[rosmaster.master][INFO] 2017-10-13 16:42:36,817: -SERVICE [/robot_1/crash] /robot_1/client_node rosrpc://wks-51-57:45625
+[rosmaster.master][INFO] 2017-10-13 16:42:36,819: -SUB [/clock] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,820: -SUB [/action_done] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,820: -SUB [/robot_0/base_pose_ground_truth] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,820: -PUB [/all_distances] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,820: -PUB [/rosout] /robot_0/distance_calculator http://wks-51-57:39080/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,820: -SERVICE [/robot_0/distance_calculator/set_logger_level] /robot_0/distance_calculator rosrpc://wks-51-57:35503
+[rosmaster.master][INFO] 2017-10-13 16:42:36,820: -SERVICE [/robot_0/distance_calculator/get_loggers] /robot_0/distance_calculator rosrpc://wks-51-57:35503
+[rosmaster.master][INFO] 2017-10-13 16:42:36,822: -SUB [/robot_0/move_base/status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,822: -SUB [/robot_0/coordinator_directions] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,822: -SUB [/robot_0/move_base/result] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,822: -SUB [/tf] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,822: -SUB [/robot_0/base_pose_ground_truth] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,822: -SUB [/clock] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,823: -SUB [/navigation_activity_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,823: -SUB [/robot_0/move_base/feedback] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,823: -SUB [/collision_positions] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,823: -PUB [/robot_0/move_base/goal] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,823: -PUB [/robot_0/move_base/cancel] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,823: -PUB [/rosout] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,824: -PUB [/robot_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,824: -PUB [/robot_0/patrol_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,824: -PUB [/navigation_activity_status] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,824: -PUB [/collision_positions] /robot_0/client_node http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,824: -SERVICE [/robot_0/robot_position] /robot_0/client_node rosrpc://wks-51-57:40740
+[rosmaster.master][INFO] 2017-10-13 16:42:36,824: -SERVICE [/robot_0/crash] /robot_0/client_node rosrpc://wks-51-57:40740
+[rosmaster.master][INFO] 2017-10-13 16:42:36,825: -SERVICE [/robot_0/client_node/tf_frames] /robot_0/client_node rosrpc://wks-51-57:40740
+[rosmaster.master][INFO] 2017-10-13 16:42:36,825: -SERVICE [/robot_0/cancel_patrol_task] /robot_0/client_node rosrpc://wks-51-57:40740
+[rosmaster.master][INFO] 2017-10-13 16:42:36,825: -SERVICE [/robot_0/client_node/set_logger_level] /robot_0/client_node rosrpc://wks-51-57:40740
+[rosmaster.master][INFO] 2017-10-13 16:42:36,825: -SERVICE [/robot_0/client_node/get_loggers] /robot_0/client_node rosrpc://wks-51-57:40740
+[rosmaster.master][INFO] 2017-10-13 16:42:36,846: publisherUpdate[/all_distances] -> http://wks-51-57:33554/
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:36,875: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 975, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 835, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 797, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 778, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-10-13 16:42:36,875: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,876: publisherUpdate[/robot_1/move_base/cancel] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,876: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,876: publisherUpdate[/robot_1/move_base/goal] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,877: publisherUpdate[/navigation_activity_status] -> http://wks-51-57:35461/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,892: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,893: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,893: publisherUpdate[/robot_0/move_base/goal] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,894: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,894: publisherUpdate[/robot_0/move_base/cancel] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,942: -PUB [/rosout] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,943: -PUB [/robot_1/amcl_pose] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,943: -PUB [/robot_1/particlecloud] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,944: -PUB [/tf] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,945: -SUB [/clock] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,946: -SUB [/tf] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,947: -SUB [/tf_static] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,948: -SUB [/robot_1/base_pose_ground_truth] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,949: -SUB [/robot_1/initialpose] /robot_1/fake_localization http://wks-51-57:42373/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,949: -PUB [/rosout] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,950: -PUB [/robot_0/amcl_pose] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,951: -SERVICE [/robot_1/fake_localization/get_loggers] /robot_1/fake_localization rosrpc://wks-51-57:60036
+[rosmaster.master][INFO] 2017-10-13 16:42:36,951: -PUB [/robot_0/particlecloud] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,952: -SERVICE [/robot_1/fake_localization/set_logger_level] /robot_1/fake_localization rosrpc://wks-51-57:60036
+[rosmaster.master][INFO] 2017-10-13 16:42:36,954: -PUB [/tf] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,957: -SUB [/clock] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,959: -SUB [/tf] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,960: -SUB [/tf_static] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,961: -SUB [/robot_0/base_pose_ground_truth] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,962: -SUB [/robot_0/initialpose] /robot_0/fake_localization http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,964: -SERVICE [/robot_0/fake_localization/get_loggers] /robot_0/fake_localization rosrpc://wks-51-57:59578
+[rosmaster.master][INFO] 2017-10-13 16:42:36,965: -SERVICE [/robot_0/fake_localization/set_logger_level] /robot_0/fake_localization rosrpc://wks-51-57:59578
+[rosmaster.master][INFO] 2017-10-13 16:42:36,995: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,995: publisherUpdate[/tf] -> http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,995: publisherUpdate[/tf] -> http://wks-51-57:42373/
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:36,996: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-13 16:42:36,996: publisherUpdate[/tf] -> http://wks-51-57:40153/
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:36,996: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-13 16:42:36,997: publisherUpdate[/tf] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,997: publisherUpdate[/tf] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,998: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,998: publisherUpdate[/tf] -> http://wks-51-57:36548/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,998: publisherUpdate[/tf] -> http://wks-51-57:40153/
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:36,999: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-10-13 16:42:36,999: publisherUpdate[/tf] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:36,999: publisherUpdate[/tf] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,049: -PUB [/rosout] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,049: -PUB [/tf] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,050: -PUB [/robot_0/odom] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,051: -PUB [/robot_0/base_pose_ground_truth] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,051: -PUB [/robot_0/base_scan] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,052: -PUB [/robot_1/odom] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,052: -PUB [/robot_1/base_pose_ground_truth] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,053: -PUB [/robot_1/base_scan] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,053: -PUB [/clock] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,054: -SUB [/clock] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,054: -SUB [/robot_0/cmd_vel] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,055: -SUB [/robot_1/cmd_vel] /stageros http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,055: -SERVICE [/stageros/get_loggers] /stageros rosrpc://wks-51-57:53423
+[rosmaster.master][INFO] 2017-10-13 16:42:37,056: -SERVICE [/stageros/set_logger_level] /stageros rosrpc://wks-51-57:53423
+[rosmaster.master][INFO] 2017-10-13 16:42:37,057: -SERVICE [/reset_positions] /stageros rosrpc://wks-51-57:53423
+[rosmaster.master][INFO] 2017-10-13 16:42:37,099: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,100: publisherUpdate[/tf] -> http://wks-51-57:40153/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,100: publisherUpdate[/tf] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,100: publisherUpdate[/tf] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,101: publisherUpdate[/robot_1/odom] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,101: publisherUpdate[/robot_0/odom] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,101: publisherUpdate[/robot_1/base_scan] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,101: publisherUpdate[/robot_0/base_scan] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,102: publisherUpdate[/clock] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,102: publisherUpdate[/clock] -> http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,102: publisherUpdate[/clock] -> http://wks-51-57:46152/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,103: publisherUpdate[/clock] -> http://wks-51-57:40153/
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:37,103: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 975, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 835, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 797, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 778, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-10-13 16:42:37,103: publisherUpdate[/clock] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,103: publisherUpdate[/clock] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,203: -PUB [/rosout] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,204: publisherUpdate[/rosout] -> http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,204: -PUB [/map_metadata] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,205: -PUB [/map] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,206: -SUB [/clock] /map_server http://wks-51-57:42616/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,206: -SERVICE [/map_server/get_loggers] /map_server rosrpc://wks-51-57:37147
+[rosmaster.master][INFO] 2017-10-13 16:42:37,207: -SERVICE [/map_server/set_logger_level] /map_server rosrpc://wks-51-57:37147
+[rosmaster.master][INFO] 2017-10-13 16:42:37,207: -SERVICE [/static_map] /map_server rosrpc://wks-51-57:37147
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:37,246: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 975, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 835, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 797, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 778, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-10-13 16:42:37,246: publisherUpdate[/collision_positions] -> http://wks-51-57:35461/
+[rosmaster.threadpool][ERROR] 2017-10-13 16:42:37,246: Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1587, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 975, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 835, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 797, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 778, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-10-13 16:42:37,246: publisherUpdate[/map] -> http://wks-51-57:46388/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,247: publisherUpdate[/map] -> http://wks-51-57:38847/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,705: -PUB [/rosout_agg] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,706: -SUB [/clock] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,706: -SUB [/rosout] /rosout http://wks-51-57:38197/
+[rosmaster.master][INFO] 2017-10-13 16:42:37,707: -SERVICE [/rosout/get_loggers] /rosout rosrpc://wks-51-57:57818
+[rosmaster.master][INFO] 2017-10-13 16:42:37,707: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://wks-51-57:57818
+[rosmaster.main][INFO] 2017-10-13 16:42:37,814: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-10-13 16:42:37,814: stopping master...
+[rospy.core][INFO] 2017-10-13 16:42:37,814: signal_shutdown [atexit]

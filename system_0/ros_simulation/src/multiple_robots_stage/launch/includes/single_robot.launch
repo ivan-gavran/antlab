@@ -1,0 +1,62 @@
+ <launch>
+ <arg name="namespace" default="default_namespace"/>
+ <arg name="initial_pose_x" default="0"/>
+ <arg name="initial_pose_y" default="0"/>
+ <arg name="initial_pose_a" default="0"/>
+ <arg name="global_planner" default="global_planner/GlobalPlanner"/>
+ <arg name="use_multirobot_planner" default="false"/>
+ 
+ <node pkg="move_base" type="move_base" respawn="false" name="move_base_node" output="screen" launch-prefix="xterm -e gdb -ex run --args">
+      <remap from="map" to="/map" />
+      <param name="check_for_multirobot_plans" value="$(arg use_multirobot_planner)"/>
+      <param name="robot_name" value="$(arg namespace)"/>
+      <!--
+      <param name="controller_frequency" value="10.0" />
+      -->
+      <param name="base_global_planner" value="$(arg global_planner)"/>
+      <!-- 
+      <rosparam param="recovery_behaviors">[{name: "conservative_reset", type: "clear_costmap_recovery/ClearCostmapRecovery"}, {name: "rotate_recovery", type: "rotate_recovery/RotateRecovery"}]</rosparam>
+      --> 
+      <rosparam file="$(find multiple_robots_stage)/params/move_base_config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+      <rosparam file="$(find multiple_robots_stage)/params/move_base_config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+      <rosparam file="$(find multiple_robots_stage)/params/move_base_config/local_costmap_params.yaml" command="load" />
+      <rosparam file="$(find multiple_robots_stage)/params/move_base_config/global_costmap_params.yaml" command="load" />
+      <rosparam file="$(find multiple_robots_stage)/params/move_base_config/base_local_planner_params.yaml" command="load" />
+      
+      <!--
+      <rosparam file="$(find multiple_robots_stage)/params/move_base_config/base_global_planner_params.yaml" command="load" />
+      -->
+      
+      <!-- 
+      even though enabled recovery behavior lead to uncontrollably many invocations of move_base:makePlan (http://answers.ros.org/question/242629/global-planner-behavior-upon-planning-failure/)
+      it seems that overall performance is better with recovery behaviors, so I leave them to be)
+       -->
+      <param name="recovery_behavior_enabled" value="true"/>
+      <param name="max_planning_retries" value="4"/>
+       <!--
+       <rosparam file="$(find multiple_robots_stage)/params/navigation_alternative.yaml" command="load" />
+       <rosparam file="$(find multiple_robots_stage)/params/turtle_alternative.yaml" command="load" />
+       -->
+    </node>
+    
+    
+	<!-- 
+     <include file="$(find multiple_robots_stage)/launch/includes/amcl.launch">
+	 	<arg name="tf_prefix" value="$(arg namespace)"/>
+		<arg name="scan_topic" value="base_scan" />
+		<arg name="use_map_topic" value="true" />
+		<arg name="initial_pose_x" value="$(arg initial_pose_x)" />
+		<arg name="initial_pose_y" value="$(arg initial_pose_y)" />
+		<arg name="initial_pose_a" value="$(arg initial_pose_a)" />
+		</include>
+		<arg name="global_frame_id" value="/map"/>
+	-->
+	<node name="fake_localization" pkg="fake_localization" type="fake_localization" respawn="false" >
+		<param name="base_frame_id" value="$(arg namespace)/base_footprint"/>
+		<param name="odom_frame_id" value="$(arg namespace)/odom"/>
+		<param name="global_frame_id" value="/map"/>
+	</node>
+	 
+	
+	
+	</launch>

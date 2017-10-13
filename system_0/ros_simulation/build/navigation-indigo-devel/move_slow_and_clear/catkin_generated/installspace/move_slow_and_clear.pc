@@ -1,0 +1,8 @@
+prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
+
+Name: move_slow_and_clear
+Description: Description of move_slow_and_clear
+Version: 1.12.11
+Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
+Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -lmove_slow_and_clear
+Requires: roscpp pluginlib nav_core

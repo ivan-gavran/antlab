@@ -1,0 +1,227 @@
+pickANdDrop, filling missing holes
+
+2 robots, map smallest size
+
+Time before optimization	1.16241	Time for optimization	0.0400901	22.0	8.840708017349243
+-1	0.0
+Time before optimization	11.3182	Time for optimization	12.1683	61.5	19.58339786529541
+Time before optimization	1.28008	Time for optimization	0.0297539	24.0	5.6049113273620605
+Time before optimization	4.69747	Time for optimization	0.0385048	39.0	9.671369552612305
+-1	0.0	
+-1	0.0
+Time before optimization	5.03611	Time for optimization	1.08245	55.0	18.55454730987549
+Time before optimization	3.3987	Time for optimization	0.0355179	43.5	14.0473952293396
+Time before optimization	1.77408	Time for optimization	0.0230131	36.0	11.915685653686523
+
+
+3 robots, map smallest size
+
+
+
+Time before optimization	0.908395	Time for optimization	0.0341361	22.5	8.961978435516357	
+-1	0.0
+Time before optimization	3.26607	Time for optimization	240.066	52.0	14.049748420715332
+Time before optimization	0.310059	Time for optimization	0.0296791	14.0	4.120105624198914
+Time before optimization	0.859474	Time for optimization	0.0228548	28.0	6.224831223487854	
+-1	0.0	
+-1	0.0
+Time before optimization	1.74009	Time for optimization	0.028656	33.5	12.749598979949951
+Time before optimization	2.97814	Time for optimization	3.58788	57.0	20.591930389404297
+Time before optimization	2.04877	Time for optimization	0.04545	32.5	8.33420181274414
+
+
+5 robots
+
+
+Time before optimization	1.5028	Time for optimization	0.0311339	24.0	8.971644401550293	
+-1	0.0
+Time before optimization	0.556143	Time for optimization	0.0256739	17.5	5.148013353347778
+Time before optimization	0.535889	Time for optimization	0.026593	18.5	5.690506339073181
+Time before optimization	0.60533	Time for optimization	0.0237601	19.5	3.6847188472747803	
+-1	0.0	
+-1	0.0
+Time before optimization	0.647223	Time for optimization	0.0247529	23.0	4.379577040672302
+Time before optimization	0.633681	Time for optimization	0.0241919	16.5	3.951902985572815
+Time before optimization	0.579983	Time for optimization	0.025368	11.5	5.23323130607605
+
+7 robots
+
+
+Time before optimization	0.838382	Time for optimization	0.0267091	24.0	7.221167683601379
+
+Time before optimization	0.354088	Time for optimization	0.0241499	14.0	5.787672340869904
+Time before optimization	0.348597	Time for optimization	0.0240178	12.0	4.277685523033142
+Time before optimization	0.36287	Time for optimization	0.026932	10.0	2.806344985961914
+
+
+Time before optimization	0.547244	Time for optimization	0.0264261	19.5	4.4529441595077515
+Time before optimization	0.865653	Time for optimization	0.0248761	23.5	3.7524107694625854
+Time before optimization	0.341768	Time for optimization	0.024025	10.5	2.6120283603668213
+
+9 robots
+
+
+Time before optimization	0.43828	Time for optimization	0.0226622	14.5	6.132672071456909
+
+Time before optimization	0.451333	Time for optimization	0.0249481	15.0	5.620948553085327
+Time before optimization	0.108719	Time for optimization	0.0210419	3.5	5.051609933376312
+Time before optimization	0.482486	Time for optimization	0.023864	10.5	2.9113491773605347
+ 
+
+Time before optimization	1.11127	Time for optimization	0.0257511	22.5	4.99539041519165
+Time before optimization	1.16635	Time for optimization	0.0241318	15.0	3.8381917476654053
+Time before optimization	0.420509	Time for optimization	0.0248899	11.0	8.29722809791565
+
+===============
+map middle size
+
+2 robots
+
+
+Time before optimization	7.82873	Time for optimization	3.65741	51.0	11.691411018371582
+Time before optimization	7.46688	Time for optimization	1.61003	51.0	14.92732286453247	
+-1	0.0
+Time before optimization	2.08935	Time for optimization	0.0321569	35.5	12.873987197875977
+Time before optimization	2.73116	Time for optimization	0.025888	46.5	15.090991973876953
+Time before optimization	15.6715	Time for optimization	52.3238	77.0	27.481355667114258
+Time before optimization	15.1425	Time for optimization	240.092	72.5	20.567012310028076
+Time before optimization	5.49226	Time for optimization	0.0254359	28.0	10.029930114746094
+Time before optimization	17.6395	Time for optimization	64.7823	69.0	21.302289962768555
+Time before optimization	10.8169	Time for optimization	21.2426	54.0	17.825855255126953
+
+
+5 robots
+Time before optimization	2.17269	Time for optimization	0.025394	30.5	8.950275540351868
+Time before optimization	2.0811	Time for optimization	0.026901	32.0	7.290513038635254	
+-1	0.0
+Time before optimization	0.676779	Time for optimization	0.0385451	19.0	4.786744952201843
+Time before optimization	2.43493	Time for optimization	0.0250568	28.0	6.6808377504348755
+Time before optimization	9.55142	Time for optimization	2.93137	40.0	11.646267175674438
+Time before optimization	4.32963	Time for optimization	3.53027	26.5	11.479251146316528
+Time before optimization	0.530347	Time for optimization	0.035363	23.0	8.14511489868164
+Time before optimization	1.8555	Time for optimization	0.024327	25.5	8.116045236587524
+Time before optimization	2.69655	Time for optimization	0.0256751	43.0	9.754454135894775
+
+7 robots
+
+
+Time before optimization	0.900437	Time for optimization	0.0265429	26.0	8.627576231956482
+Time before optimization	0.326625	Time for optimization	0.0255909	11.5	4.9597989320755005	
+-1	0.0
+Time before optimization	0.349393	Time for optimization	0.0257239	15.0	3.6056573390960693
+Time before optimization	3.36041	Time for optimization	0.026757	37.5	10.144526481628418
+Time before optimization	1.67582	Time for optimization	0.0252211	23.5	5.413319230079651
+Time before optimization	1.86283	Time for optimization	0.038137	26.0	7.517599582672119
+Time before optimization	1.64023	Time for optimization	0.0260601	29.0	7.239569902420044
+Time before optimization	0.840588	Time for optimization	0.0239091	22.5	7.138779997825623
+Time before optimization	2.09578	Time for optimization	0.0257461	43.5	11.80309283733368
+
+9 robots:
+
+
+Time before optimization	1.19685	Time for optimization	0.0244298	25.5	8.427411198616028
+Time before optimization	0.394202	Time for optimization	0.0218592	11.5	5.29031229019165	
+-1	0.0
+Time before optimization	0.4549	Time for optimization	0.0216889	13.0	3.5004599690437317
+Time before optimization	1.14698	Time for optimization	0.0200231	21.5	8.032863855361938
+Time before optimization	2.17836	Time for optimization	0.0233099	39.5	6.128023147583008
+Time before optimization	1.32127	Time for optimization	0.0275769
+Time before optimization	0.244585	Time for optimization	0.025552	7.0	8.727820754051208
+Time before optimization	1.02572	Time for optimization	0.021277	24.5	8.272195219993591
+Time before optimization	3.71708	Time for optimization	0.0247478	47.5	7.804393887519836
+Time before optimization	0.112852	Time for optimization	0.0206161	3.0	12.657520145177841
+
+====
+largest map
+2 robots
+
+
+Time before optimization	16.7503	Time for optimization	3.36183	96.0	34.45413684844971
+Time before optimization	32.9457	Time for optimization	240.104	93.0	32.90763473510742
+Time before optimization	15.1678	Time for optimization	2.79581	86.0	27.216445922851562
+Time before optimization	20.7742	Time for optimization	4.58784	86.0	25.42447566986084
+Time before optimization	12.9943	Time for optimization	3.81967	74.5	24.355671882629395
+Time before optimization	7.17567	Time for optimization	2.10497	72.0	21.891284942626953
+Time before optimization	52.9094	Time for optimization	440.537	115.5	39.21434688568115
+Time before optimization	16.7648	Time for optimization	240.091	83.0	21.714470863342285
+Time before optimization	9.43456	Time for optimization	2.51288	63.0	25.19600200653076
+Time before optimization	14.0097	Time for optimization	240.097	87.5	28.1585111618042
+
+
+5 robots
+Time before optimization	3.60074	Time for optimization	0.024688	30.0	7.353883147239685
+Time before optimization	34.4911	Time for optimization	299.773	88.5	22.250893592834473
+Time before optimization	4.63479	Time for optimization	0.0247312	44.5	14.8884859085083
+Time before optimization	8.1464	Time for optimization	52.8461	33.0	12.86823320388794
+Time before optimization	10.125	Time for optimization	53.708	55.5	17.58839774131775
+Time before optimization	2.25316	Time for optimization	0.023133	42.5	15.882433414459229
+Time before optimization	6.52275	Time for optimization	5.61454	39.5	14.92953634262085
+Time before optimization	4.77955	Time for optimization	6.54605	69.5	21.320263385772705
+Time before optimization	7.7389	Time for optimization	240.085	79.0	28.26936435699463
+Time before optimization	6.60335	Time for optimization	32.981	56.0	15.455626368522644
+
+7 robots
+Time before optimization	1.68796	Time for optimization	0.020417	27.0	9.001330256462097
+Time before optimization	4.59774	Time for optimization	20.2665	55.0	12.95297122001648
+Time before optimization	4.58061	Time for optimization	0.0418508	37.0	13.524870872497559
+Time before optimization	1.57774	Time for optimization	0.022202	23.0	7.553934454917908
+Time before optimization	10.2108	Time for optimization	76.1661	74.5	21.33183765411377
+Time before optimization	3.73601	Time for optimization	0.024122	40.5	14.010221481323242
+Time before optimization	7.01586	Time for optimization	2.13289	60.5	17.851733565330505
+Time before optimization	9.06382	Time for optimization	9.67311	66.0	22.168799877166748
+Time before optimization	4.10178	Time for optimization	0.0243931	49.0	11.71260941028595
+Time before optimization	3.48703	Time for optimization	0.0240309	35.0	8.10299038887024
+
+5 robotsa
+Time before optimization	2.01537	Time for optimization	3.21889	25.0	5.920212507247925
+Time before optimization	20.1297	
+Time before optimization	1.60117	Time for optimization	2.98618	27.0	7.847013831138611
+Time before optimization	4.47068	Time for optimization	9.90206	36.0	12.882262945175171
+Time before optimization	4.31798	Time for optimization	3.16909	40.0	13.508930683135986
+Time before optimization	1.76943	Time for optimization	254.06	22.5	7.683726906776428
+Time before optimization	10.1815	Time for optimization	254.367	57.0	20.430151224136353
+Time before optimization	3.21613	Time for optimization	3.18106	41.5	14.297746181488037
+Time before optimization	6.87896	Time for optimization	17.5252	38.5	14.941862106323242
+Time before optimization	8.95358	Time for optimization	245.571	58.0	20.265290021896362
+Time before optimization	7.13933	Time for optimization	34.9542	35.0	13.930388689041138
+Time before optimization	3.73584	Time for optimization	4.73461	38.5	11.52661919593811
+
+7 robots
+Time before optimization	3.64313	Time for optimization	1.02108	30.0	7.400206565856934
+Time before optimization	34.0578	Time for optimization	314.118	73.0	21.309769868850708
+Time before optimization	5.61383	Time for optimization	436.492	50.0	16.343260288238525
+Time before optimization	7.99662	Time for optimization	242.918	41.5	13.397693455219269
+Time before optimization	11.1704	Time for optimization	44.892	42.0	16.345309019088745
+Time before optimization	2.32152	Time for optimization	1.50913	40.5	14.736747741699219
+Time before optimization	7.20747	Time for optimization	251.63	42.0	15.00274646282196
+Time before optimization	4.72745	Time for optimization	241.928	64.5	21.628747940063477
+Time before optimization	7.44477	Time for optimization	244.321	58.5	19.915023803710938
+Time before optimization	2.39667	Time for optimization	2.31758	35.5	11.766915321350098
+
+Time before optimization	0.157634	Time for optimization	0.028322
+Time before optimization	0.243835	Time for optimization	0.018657
+Time before optimization	0.102959	Time for optimization	0.014204
+Time before optimization	0.169066	Time for optimization	0.014456
+Time before optimization	0.172131	Time for optimization	0.0148611
+Time before optimization	0.293182	Time for optimization	0.115611
+Time before optimization	0.546603	Time for optimization	1.38021
+Time before optimization	0.357384	Time for optimization	0.378815
+Time before optimization	0.307011	Time for optimization	0.0188782
+Time before optimization	0.320844	Time for optimization	0.0155518
+Time before optimization	0.283072	Time for optimization	0.113591
+Time before optimization	0.216409	Time for optimization	0.0151691
+Time before optimization	1.09534	Time for optimization	0.255897
+Time before optimization	0.281675	Time for optimization	0.0153279
+Time before optimization	0.176896	Time for optimization	0.0156291
+Time before optimization	0.184591	Time for optimization	0.0158191
+Time before optimization	0.593239	Time for optimization	0.221831
+Time before optimization	0.455459	Time for optimization	0.158264
+Time before optimization	0.278482	Time for optimization	0.14846
+Time before optimization	0.287228	Time for optimization	0.117873
+Time before optimization	0.276081	Time for optimization	0.0165918
+Time before optimization	0.28295	Time for optimization	0.114999
+Time before optimization	0.416758	Time for optimization	0.237686
+Time before optimization	5.03242	Time for optimization	0.780422
+Time before optimization	5.02615	Time for optimization	1.09905
+Time before optimization	4.87601	Time for optimization	0.469958
+Time before optimization	5.03589	Time for optimization	0.720913

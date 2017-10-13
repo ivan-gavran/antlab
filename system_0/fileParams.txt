@@ -1,0 +1,254 @@
+map_server: {frame_id: /map}
+multi_global_planner:
+  ant_multi_planner: {final_optimization: false, path_cost_tolerance: 10, planning_patience: 235,
+    primitives: primitive_movements_manhattan.txt, testParam: 1.0}
+  multi_planner: ant_multi_planner::AntMultiPlanner
+robot_0:
+  amcl: {base_frame_id: robot_0/base_footprint, beam_skip_distance: 2.0, beam_skip_threshold: 1.0,
+    do_beamskip: false, first_map_only: false, global_frame_id: /map, gui_publish_rate: 10.0,
+    initial_cov_aa: 0.06786871372013398, initial_cov_xx: 0.2415836290874962, initial_cov_yy: 0.2389537876308765,
+    initial_pose_a: 0.0008175091837897375, initial_pose_x: 2.0282609660839213, initial_pose_y: 9.034256042572029,
+    kld_err: 0.05, kld_z: 0.99, laser_lambda_short: 0.1, laser_likelihood_max_dist: 2.0,
+    laser_max_beams: 60, laser_max_range: 12.0, laser_min_range: -1.0, laser_model_type: likelihood_field,
+    laser_sigma_hit: 0.2, laser_z_hit: 0.5, laser_z_max: 0.05, laser_z_rand: 0.5,
+    laser_z_short: 0.05, max_particles: 2000, min_particles: 500, odom_alpha1: 0.2,
+    odom_alpha2: 0.2, odom_alpha3: 0.2, odom_alpha4: 0.2, odom_alpha5: 0.1, odom_frame_id: robot_0/odom,
+    odom_model_type: diff, recovery_alpha_fast: 0.0, recovery_alpha_slow: 0.0, resample_interval: 1,
+    restore_defaults: false, save_pose_rate: 0.5, tf_broadcast: true, tf_prefix: robot_0,
+    transform_tolerance: 1.0, update_min_a: 0.2, update_min_d: 0.25, use_map_topic: true}
+  client_node: {robot_name: robot_0}
+  move_base_node:
+    TrajectoryPlannerROS: {acc_lim_th: 3.2, acc_lim_theta: 3.2, acc_lim_x: 2.5, acc_lim_y: 2.5,
+      angular_sim_granularity: 0.025, dwa: true, escape_reset_dist: 0.1, escape_reset_theta: 1.57079632679,
+      escape_vel: -0.1, gdist_scale: 0.8, heading_lookahead: 0.325, heading_scoring: false,
+      heading_scoring_timestep: 0.1, holonomic_robot: true, max_rotational_vel: 1.0,
+      max_vel_theta: 1.0, max_vel_x: 0.3, meter_scoring: false, min_in_place_rotational_vel: 0.4,
+      min_in_place_vel_theta: 0.4, min_vel_theta: -1.0, min_vel_x: 0.1, occdist_scale: 0.01,
+      oscillation_reset_dist: 0.05, pdist_scale: 0.6, prune_plan: true, restore_defaults: false,
+      sim_granularity: 0.025, sim_time: 1.7, simple_attractor: false, vtheta_samples: 20,
+      vx_samples: 3, xy_goal_tolerance: 0.1, y_vels: '-0.3,-0.1,0.1,-0.3', yaw_goal_tolerance: 0.05}
+    aggressive_reset: {reset_distance: 1.84}
+    base_global_planner: navfn/NavfnROS
+    base_local_planner: base_local_planner/TrajectoryPlannerROS
+    check_for_multirobot_plans: false
+    clearing_rotation_allowed: true
+    conservative_reset: {reset_distance: 3.0}
+    conservative_reset_dist: 3.0
+    controller_frequency: 20.0
+    controller_patience: 5.0
+    global_costmap:
+      footprint: '[[-0.325,-0.325],[-0.325,0.325],[0.325,0.325],[0.46,0],[0.325,-0.325]]'
+      footprint_padding: 0.02
+      global_frame: /map
+      height: 10
+      inflation_layer: {cost_scaling_factor: 10.0, enabled: true, inflation_radius: 0.55}
+      map_type: voxel
+      obstacle_layer:
+        base_scan: {clearing: true, data_type: LaserScan, expected_update_rate: 0.4,
+          marking: true, max_obstacle_height: 0.4, min_obstacle_height: -1, observation_persistence: 0.0}
+        combination_method: 1
+        enabled: true
+        footprint_clearing_enabled: true
+        mark_threshold: 0
+        max_obstacle_height: 2.0
+        observation_sources: base_scan
+        obstacle_range: 2.5
+        origin_z: 0.0
+        raytrace_range: 3.0
+        unknown_threshold: 9
+        z_resolution: 0.2
+        z_voxels: 10
+      origin_x: 0.0
+      origin_y: 0.0
+      plugins:
+      - {name: static_layer, type: 'costmap_2d::StaticLayer'}
+      - {name: obstacle_layer, type: 'costmap_2d::VoxelLayer'}
+      - {name: inflation_layer, type: 'costmap_2d::InflationLayer'}
+      publish_frequency: 0.0
+      resolution: 0.05
+      robot_base_frame: base_link
+      robot_radius: 0.46
+      rolling_window: false
+      static_layer: {enabled: true, lethal_cost_threshold: 100}
+      static_map: true
+      transform_tolerance: 0.3
+      update_frequency: 5.0
+      width: 10
+    local_costmap:
+      footprint: '[[-0.325,-0.325],[-0.325,0.325],[0.325,0.325],[0.46,0],[0.325,-0.325]]'
+      footprint_padding: 0.01
+      global_frame: odom
+      height: 6
+      inflation_layer: {cost_scaling_factor: 10.0, enabled: true, inflation_radius: 0.55}
+      lethal_cost_threshold: 100
+      map_type: voxel
+      obstacle_layer:
+        base_scan: {clearing: true, data_type: LaserScan, expected_update_rate: 0.4,
+          marking: true, max_obstacle_height: 0.4, min_obstacle_height: -1, observation_persistence: 0.0}
+        combination_method: 1
+        enabled: true
+        footprint_clearing_enabled: true
+        mark_threshold: 0
+        max_obstacle_height: 2.0
+        observation_sources: base_scan
+        obstacle_range: 2.5
+        origin_z: 0.0
+        publish_voxel_map: true
+        raytrace_range: 3.0
+        unknown_threshold: 9
+        z_resolution: 0.2
+        z_voxels: 10
+      origin_x: 0.0
+      origin_y: 0.0
+      plugins:
+      - {name: obstacle_layer, type: 'costmap_2d::VoxelLayer'}
+      - {name: inflation_layer, type: 'costmap_2d::InflationLayer'}
+      publish_frequency: 2.0
+      resolution: 0.025
+      robot_base_frame: base_link
+      robot_radius: 0.46
+      rolling_window: true
+      static_map: false
+      transform_tolerance: 0.3
+      update_frequency: 5.0
+      width: 6
+    max_planning_retries: 4
+    oscillation_distance: 0.5
+    oscillation_timeout: 0.0
+    planner_frequency: 0.0
+    planner_patience: 5.0
+    recovery_behavior_enabled: true
+    restore_defaults: false
+    robot_name: robot_0
+    shutdown_costmaps: false
+  tf_prefix: robot_0
+robot_1:
+  amcl: {base_frame_id: robot_1/base_footprint, beam_skip_distance: 2.0, beam_skip_threshold: 1.0,
+    do_beamskip: false, first_map_only: false, global_frame_id: /map, gui_publish_rate: 10.0,
+    initial_cov_aa: 0.06786871372013398, initial_cov_xx: 0.2415836290876594, initial_cov_yy: 0.2389537876308765,
+    initial_pose_a: 0.0008175091837897375, initial_pose_x: 1.0282609660838682, initial_pose_y: 9.034256042572029,
+    kld_err: 0.05, kld_z: 0.99, laser_lambda_short: 0.1, laser_likelihood_max_dist: 2.0,
+    laser_max_beams: 60, laser_max_range: 12.0, laser_min_range: -1.0, laser_model_type: likelihood_field,
+    laser_sigma_hit: 0.2, laser_z_hit: 0.5, laser_z_max: 0.05, laser_z_rand: 0.5,
+    laser_z_short: 0.05, max_particles: 2000, min_particles: 500, odom_alpha1: 0.2,
+    odom_alpha2: 0.2, odom_alpha3: 0.2, odom_alpha4: 0.2, odom_alpha5: 0.1, odom_frame_id: robot_1/odom,
+    odom_model_type: diff, recovery_alpha_fast: 0.0, recovery_alpha_slow: 0.0, resample_interval: 1,
+    restore_defaults: false, save_pose_rate: 0.5, tf_broadcast: true, tf_prefix: robot_1,
+    transform_tolerance: 1.0, update_min_a: 0.2, update_min_d: 0.25, use_map_topic: true}
+  client_node: {robot_name: robot_1}
+  move_base_node:
+    TrajectoryPlannerROS: {acc_lim_th: 3.2, acc_lim_theta: 3.2, acc_lim_x: 2.5, acc_lim_y: 2.5,
+      angular_sim_granularity: 0.025, dwa: true, escape_reset_dist: 0.1, escape_reset_theta: 1.57079632679,
+      escape_vel: -0.1, gdist_scale: 0.8, heading_lookahead: 0.325, heading_scoring: false,
+      heading_scoring_timestep: 0.1, holonomic_robot: true, max_rotational_vel: 1.0,
+      max_vel_theta: 1.0, max_vel_x: 0.3, meter_scoring: false, min_in_place_rotational_vel: 0.4,
+      min_in_place_vel_theta: 0.4, min_vel_theta: -1.0, min_vel_x: 0.1, occdist_scale: 0.01,
+      oscillation_reset_dist: 0.05, pdist_scale: 0.6, prune_plan: true, restore_defaults: false,
+      sim_granularity: 0.025, sim_time: 1.7, simple_attractor: false, vtheta_samples: 20,
+      vx_samples: 3, xy_goal_tolerance: 0.1, y_vels: '-0.3,-0.1,0.1,-0.3', yaw_goal_tolerance: 0.05}
+    aggressive_reset: {reset_distance: 1.84}
+    base_global_planner: navfn/NavfnROS
+    base_local_planner: base_local_planner/TrajectoryPlannerROS
+    check_for_multirobot_plans: false
+    clearing_rotation_allowed: true
+    conservative_reset: {reset_distance: 3.0}
+    conservative_reset_dist: 3.0
+    controller_frequency: 20.0
+    controller_patience: 5.0
+    global_costmap:
+      footprint: '[[-0.325,-0.325],[-0.325,0.325],[0.325,0.325],[0.46,0],[0.325,-0.325]]'
+      footprint_padding: 0.02
+      global_frame: /map
+      height: 10
+      inflation_layer: {cost_scaling_factor: 10.0, enabled: true, inflation_radius: 0.55}
+      map_type: voxel
+      obstacle_layer:
+        base_scan: {clearing: true, data_type: LaserScan, expected_update_rate: 0.4,
+          marking: true, max_obstacle_height: 0.4, min_obstacle_height: -1, observation_persistence: 0.0}
+        combination_method: 1
+        enabled: true
+        footprint_clearing_enabled: true
+        mark_threshold: 0
+        max_obstacle_height: 2.0
+        observation_sources: base_scan
+        obstacle_range: 2.5
+        origin_z: 0.0
+        raytrace_range: 3.0
+        unknown_threshold: 9
+        z_resolution: 0.2
+        z_voxels: 10
+      origin_x: 0.0
+      origin_y: 0.0
+      plugins:
+      - {name: static_layer, type: 'costmap_2d::StaticLayer'}
+      - {name: obstacle_layer, type: 'costmap_2d::VoxelLayer'}
+      - {name: inflation_layer, type: 'costmap_2d::InflationLayer'}
+      publish_frequency: 0.0
+      resolution: 0.05
+      robot_base_frame: base_link
+      robot_radius: 0.46
+      rolling_window: false
+      static_layer: {enabled: true, lethal_cost_threshold: 100}
+      static_map: true
+      transform_tolerance: 0.3
+      update_frequency: 5.0
+      width: 10
+    local_costmap:
+      footprint: '[[-0.325,-0.325],[-0.325,0.325],[0.325,0.325],[0.46,0],[0.325,-0.325]]'
+      footprint_padding: 0.01
+      global_frame: odom
+      height: 6
+      inflation_layer: {cost_scaling_factor: 10.0, enabled: true, inflation_radius: 0.55}
+      lethal_cost_threshold: 100
+      map_type: voxel
+      obstacle_layer:
+        base_scan: {clearing: true, data_type: LaserScan, expected_update_rate: 0.4,
+          marking: true, max_obstacle_height: 0.4, min_obstacle_height: -1, observation_persistence: 0.0}
+        combination_method: 1
+        enabled: true
+        footprint_clearing_enabled: true
+        mark_threshold: 0
+        max_obstacle_height: 2.0
+        observation_sources: base_scan
+        obstacle_range: 2.5
+        origin_z: 0.0
+        publish_voxel_map: true
+        raytrace_range: 3.0
+        unknown_threshold: 9
+        z_resolution: 0.2
+        z_voxels: 10
+      origin_x: 0.0
+      origin_y: 0.0
+      plugins:
+      - {name: obstacle_layer, type: 'costmap_2d::VoxelLayer'}
+      - {name: inflation_layer, type: 'costmap_2d::InflationLayer'}
+      publish_frequency: 2.0
+      resolution: 0.025
+      robot_base_frame: base_link
+      robot_radius: 0.46
+      rolling_window: true
+      static_map: false
+      transform_tolerance: 0.3
+      update_frequency: 5.0
+      width: 6
+    max_planning_retries: 4
+    oscillation_distance: 0.5
+    oscillation_timeout: 0.0
+    planner_frequency: 0.0
+    planner_patience: 5.0
+    recovery_behavior_enabled: true
+    restore_defaults: false
+    robot_name: robot_1
+    shutdown_costmaps: false
+  tf_prefix: robot_1
+rosdistro: 'indigo
+
+  '
+roslaunch:
+  uris: {host_wks_51_57__40225: 'http://wks-51-57:40225/'}
+rosversion: '1.11.20
+
+  '
+run_id: 999d4720-a4c0-11e6-a198-64006a52979f
+stageros: {base_watchdog_timeout: 0.2}
+use_sim_time: true

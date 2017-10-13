@@ -1,0 +1,7 @@
+<library path="lib/libant_multi_planner">
+  <class type="ant_multi_planner::AntMultiPlanner" base_class_type="multi_planner_base::MultiPlanner">
+    <description>
+      A global navigation planner for multiple robots and multiple locations.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,102 @@
+include "/opt/ros/indigo/share/turtlebot_stage/maps/stage/turtlebot.inc"
+
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray30"
+
+  # most maps will need a bounding box
+  boundary 1
+
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+resolution 0.02
+interval_sim 100  # simulation timestep in milliseconds
+
+window
+(
+  size [ 1855 1176 ]
+  center [ 4.679 8.142 ]
+  rotate [ 0.000 0.000 ]
+  scale 49.587
+  show_grid 1
+)
+
+floorplan
+(
+  name "my_map"
+  bitmap "../artificialFloor.pgm"
+  size [ 18.100 19.975 2.000 ]
+ # pose [  0  0 0.0 0.0 ]
+ #location of the center of map
+   pose [  9.050 9.988 0.000 0.000 ]
+)
+turtlebot
+(
+  pose [ 1.085 10.028 0.000 0.289 ]
+  name "turtlebot0"
+  color "black"
+)
+
+turtlebot
+(
+  pose [ 5.036 6.948 0.000 1.405 ]
+  name "turtlebot1"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 9.983 5.061 0.000 0.825 ]
+  name "turtlebot2"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 14.912 15.000 0.000 0.000 ]
+  name "turtlebot3"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 14.069 7.988 0.000 0.530 ]
+  name "turtlebot4"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 8.929 14.013 0.000 -1.081 ]
+  name "turtlebot5"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 11.081 17.965 0.000 -0.536 ]
+  name "turtlebot6"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 4.067 2.057 0.000 0.564 ]
+  name "turtlebot7"
+  color "yellow"
+)
+
+turtlebot
+(
+  pose [ 15.911 4.013 0.000 0.907 ]
+  name "turtlebot7"
+  color "yellow"
+)
+

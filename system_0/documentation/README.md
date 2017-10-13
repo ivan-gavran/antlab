@@ -1,0 +1,1 @@
+This folder contains documentation for the stupidest and the easiest things possible. The motivation for creatign it was coming back to the project after few months and struggling a lot to understand basic technical details on - for example - connecting to the machines with on TurtleBots.

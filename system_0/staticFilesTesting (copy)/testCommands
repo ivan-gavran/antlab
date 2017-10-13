@@ -1,0 +1,33 @@
+empty - populated
+
+python createTestingLocations.py --world_file=emptyRectangleSmallResolutionPopulated.world --number_of_requests=10 --yaml_file=emptyRectangleSmallResolution.yaml
+
+python start.py --arena_name=emptyRectangleSmallResolution --world_file=emptyRectangleSmallResolutionPopulated.world --test_name=emptyRectangleSmallResolutionPopulated --run_test --only_file_generation --use_implan_assignment
+
+python start.py --arena_name=emptyRectangleSmallResolution --world_file=emptyRectangleSmallResolutionPopulated.world --test_name=emptyRectangleSmallResolutionPopulated --run_test --use_implan_assignment
+
+python start.py --arena_name=emptyRectangleSmallResolution --world_file=emptyRectangleSmallResolutionPopulated.world --test_name=emptyRectangleSmallResolutionPopulated --run_test --only_file_generation
+
+ python start.py --arena_name=emptyRectangleSmallResolution --world_file=emptyRectangleSmallResolutionPopulated.world --test_name=emptyRectangleSmallResolutionPopulated --run_test
+
+-----------------
+
+python createTestingLocations.py --world_file=artificialFloorMidSize.world --number_of_requests=10 --yaml_file=artificialFloorMidSize.yaml
+
+python start.py --world_file=artificialFloorMidSize.world --yaml_file=artificialFloorMidSize.yaml --test_name=artificialFloorMidSize --use_implan_assignment  --run_test --only_file_generation
+
+python start.py --world_file=artificialFloorMidSize.world --yaml_file=artificialFloorMidSize.yaml --test_name=artificialFloorMidSize --use_implan_assignment  --run_test
+
+---------------
+
+python createTestingLocations.py --world_file=artificialFloorSmallSize.world --number_of_requests=2 --yaml_file=artificialFloorSmallSize.yaml
+
+python start.py --test_name=artificialFloorSmallSize --run_test  --world_file=artificialFloorSmallSize.world --yaml_file=artificialFloorSmallSize.yaml --only_file_generation
+python start.py --test_name=artificialFloorSmallSize --run_test  --world_file=artificialFloorSmallSize.world --yaml_file=artificialFloorSmallSize.yaml 
+python start.py --test_name=artificialFloorSmallSize --run_test  --world_file=artificialFloorSmallSize.world --yaml_file=artificialFloorSmallSize.yaml --only_file_generation --use_implan_assignment
+python start.py --test_name=artificialFloorSmallSize --run_test  --world_file=artificialFloorSmallSize.world --yaml_file=artificialFloorSmallSize.yaml --use_implan_assignment
+
+
+
+
+

@@ -1,0 +1,7 @@
+<library path="lib/libltl_multi_planner">
+  <class type="ltl_multi_planner::LtlMultiPlanner" base_class_type="multi_planner_base::MultiPlanner">
+    <description>
+      A global navigation planner for multiple robots and multiple locations.
+    </description>
+  </class>
+</library>

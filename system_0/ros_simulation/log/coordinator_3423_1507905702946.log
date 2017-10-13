@@ -1,0 +1,59 @@
+[rospy.client][INFO] 2017-10-13 16:41:42,980: init_node, name[/coordinator_3423_1507905702946], pid[3423]
+[xmlrpc][INFO] 2017-10-13 16:41:42,980: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-13 16:41:42,980: Started XML-RPC server [http://wks-51-57:44455/]
+[rospy.init][INFO] 2017-10-13 16:41:42,980: ROS Slave URI: [http://wks-51-57:44455/]
+[rospy.impl.masterslave][INFO] 2017-10-13 16:41:42,981: _ready: http://wks-51-57:44455/
+[rospy.registration][INFO] 2017-10-13 16:41:42,981: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2017-10-13 16:41:42,981: Registering publisher topic [/robot_0/coordinator_directions] type [geometry_msgs/Pose2D] with master
+[xmlrpc][INFO] 2017-10-13 16:41:42,981: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-13 16:41:42,982: registering subscriber topic [/robot_0/patrol_status] type [multiple_robots_stage/PatrolStatus] with master
+[rospy.registration][INFO] 2017-10-13 16:41:42,983: registering subscriber topic [/robot_status] type [multiple_robots_stage/RobotStatus] with master
+[rospy.internal][INFO] 2017-10-13 16:41:42,986: topic[/robot_status] adding connection to [http://wks-51-57:35461/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:42,989: topic[/robot_status] adding connection to [http://wks-51-57:41539/], count 1
+[rospy.internal][INFO] 2017-10-13 16:41:42,991: topic[/robot_0/patrol_status] adding connection to [http://wks-51-57:35461/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:42,994: topic[/robot_0/coordinator_directions] adding connection to [/robot_0/client_node], count 0
+[rospy.init][INFO] 2017-10-13 16:41:43,081: registered with master
+[rospy.rosout][INFO] 2017-10-13 16:41:43,081: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-13 16:41:43,082: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-13 16:41:43,083: initializing /clock core topic
+[rospy.simtime][INFO] 2017-10-13 16:41:43,085: connected to core topic /clock
+[rospy.internal][INFO] 2017-10-13 16:41:43,087: topic[/clock] adding connection to [http://wks-51-57:46152/], count 0
+[actorClasses.task_organizer][INFO] 2017-10-13 16:41:43,087: robot_0 chosen
+[rosout][ERROR] 2017-10-13 16:41:43,087: 0
+[tornado.access][INFO] 2017-10-13 16:41:43,097: 200 GET / (127.0.0.1) 0.78ms
+[rospy.internal][INFO] 2017-10-13 16:41:43,290: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-10-13 16:41:53,110: intermediate position reached robot_0
+[rosout][ERROR] 2017-10-13 16:41:53,111: 1
+[rosout][INFO] 2017-10-13 16:42:01,879: final position reached robot_0
+[rosout][INFO] 2017-10-13 16:42:01,879: finished by now: 1
+[rosout][INFO] 2017-10-13 16:42:01,879: all robots 1
+[rosout][INFO] 2017-10-13 16:42:01,903: removing task organizer
+[rospy.core][INFO] 2017-10-13 16:42:35,200: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-13 16:42:35,203: topic[/robot_0/coordinator_directions] removing connection to /robot_0/client_node
+[rospy.internal][INFO] 2017-10-13 16:42:35,203: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-13 16:42:35,204: topic[/robot_0/patrol_status] removing connection to http://wks-51-57:35461/
+[rospy.internal][INFO] 2017-10-13 16:42:35,204: topic[/clock] removing connection to http://wks-51-57:46152/
+[rospy.internal][WARNING] 2017-10-13 16:42:35,205: Unknown error initiating TCP/IP socket to wks-51-57:40740 (http://wks-51-57:35461/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2017-10-13 16:42:35,205: topic[/robot_status] removing connection to http://wks-51-57:35461/
+[rospy.internal][INFO] 2017-10-13 16:42:35,205: topic[/robot_status] removing connection to http://wks-51-57:41539/
+[rospy.impl.masterslave][INFO] 2017-10-13 16:42:35,205: signal-2
+[rospy.internal][WARNING] 2017-10-13 16:42:35,206: Unknown error initiating TCP/IP socket to wks-51-57:40740 (http://wks-51-57:35461/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2017-10-13 16:42:35,206: Unknown error initiating TCP/IP socket to wks-51-57:45625 (http://wks-51-57:41539/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2017-10-13 16:42:35,206: Unknown error initiating TCP/IP socket to wks-51-57:53423 (http://wks-51-57:46152/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2017-10-13 16:42:35,803: signal_shutdown [atexit]

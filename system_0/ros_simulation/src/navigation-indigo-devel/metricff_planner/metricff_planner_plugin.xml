@@ -1,0 +1,7 @@
+<library path="lib/libmetricff_planner">
+  <class type="metricff_planner::MetricFFPlanner" base_class_type="multi_planner_base::MultiPlanner">
+    <description>
+      Planner based on Metric-FF planner
+    </description>
+  </class>
+</library>

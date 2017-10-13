@@ -1,0 +1,8 @@
+prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
+
+Name: tfd_planner
+Description: Description of tfd_planner
+Version: 0.0.0
+Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
+Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -ltfd_planner
+Requires: pluginlib roscpp std_msgs multi_robot_move

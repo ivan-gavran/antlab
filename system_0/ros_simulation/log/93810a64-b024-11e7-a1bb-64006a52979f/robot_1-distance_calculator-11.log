@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2017-10-13 16:41:21,018: init_node, name[/robot_1/distance_calculator], pid[1111]
+[xmlrpc][INFO] 2017-10-13 16:41:21,019: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-13 16:41:21,019: Started XML-RPC server [http://wks-51-57:33292/]
+[rospy.impl.masterslave][INFO] 2017-10-13 16:41:21,019: _ready: http://wks-51-57:33292/
+[rospy.registration][INFO] 2017-10-13 16:41:21,020: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-10-13 16:41:21,020: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-13 16:41:21,020: ROS Slave URI: [http://wks-51-57:33292/]
+[rospy.init][INFO] 2017-10-13 16:41:21,021: registered with master
+[rospy.rosout][INFO] 2017-10-13 16:41:21,021: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-13 16:41:21,023: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-13 16:41:21,024: initializing /clock core topic
+[rospy.simtime][INFO] 2017-10-13 16:41:21,028: connected to core topic /clock
+[rospy.internal][INFO] 2017-10-13 16:41:21,089: topic[/all_distances] adding connection to [/distance_collector], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:21,250: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:21,313: topic[/clock] adding connection to [http://wks-51-57:46152/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:21,315: topic[/robot_1/base_pose_ground_truth] adding connection to [http://wks-51-57:46152/], count 0
+[rospy.core][INFO] 2017-10-13 16:42:36,801: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-13 16:42:36,804: topic[/all_distances] removing connection to /distance_collector
+[rospy.internal][INFO] 2017-10-13 16:42:36,804: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-13 16:42:36,805: topic[/robot_1/base_pose_ground_truth] removing connection to http://wks-51-57:46152/
+[rospy.internal][INFO] 2017-10-13 16:42:36,805: topic[/clock] removing connection to http://wks-51-57:46152/
+[rospy.impl.masterslave][INFO] 2017-10-13 16:42:36,805: signal-2
+[rospy.core][INFO] 2017-10-13 16:42:36,938: signal_shutdown [atexit]

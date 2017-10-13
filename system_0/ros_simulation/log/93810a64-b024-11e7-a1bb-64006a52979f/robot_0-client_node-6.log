@@ -1,0 +1,142 @@
+[rospy.client][INFO] 2017-10-13 16:41:20,634: init_node, name[/robot_0/client_node], pid[1058]
+[xmlrpc][INFO] 2017-10-13 16:41:20,635: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-13 16:41:20,635: Started XML-RPC server [http://wks-51-57:35461/]
+[rospy.impl.masterslave][INFO] 2017-10-13 16:41:20,635: _ready: http://wks-51-57:35461/
+[rospy.init][INFO] 2017-10-13 16:41:20,635: ROS Slave URI: [http://wks-51-57:35461/]
+[xmlrpc][INFO] 2017-10-13 16:41:20,636: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-13 16:41:20,636: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-10-13 16:41:20,736: registered with master
+[rospy.rosout][INFO] 2017-10-13 16:41:20,736: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-13 16:41:20,738: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-13 16:41:20,739: initializing /clock core topic
+[rospy.simtime][INFO] 2017-10-13 16:41:20,741: connected to core topic /clock
+[rospy.internal][INFO] 2017-10-13 16:41:20,786: topic[/tf] adding connection to [http://wks-51-57:46152/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:20,824: topic[/tf] adding connection to [http://wks-51-57:36548/], count 1
+[rospy.internal][INFO] 2017-10-13 16:41:20,852: topic[/tf] adding connection to [http://wks-51-57:42373/], count 2
+[rospy.internal][INFO] 2017-10-13 16:41:20,892: topic[/collision_positions] adding connection to [http://wks-51-57:35461/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:20,898: topic[/navigation_activity_status] adding connection to [http://wks-51-57:35461/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:20,900: topic[/collision_positions] adding connection to [/robot_0/client_node], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:20,902: topic[/navigation_activity_status] adding connection to [/robot_0/client_node], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:20,999: topic[/collision_positions] adding connection to [/robot_1/client_node], count 1
+[rospy.internal][INFO] 2017-10-13 16:41:21,018: topic[/navigation_activity_status] adding connection to [http://wks-51-57:41539/], count 1
+[rospy.internal][INFO] 2017-10-13 16:41:21,019: topic[/navigation_activity_status] adding connection to [/robot_1/client_node], count 1
+[rospy.internal][INFO] 2017-10-13 16:41:21,031: topic[/collision_positions] adding connection to [http://wks-51-57:41539/], count 1
+[rospy.internal][INFO] 2017-10-13 16:41:21,047: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:21,274: topic[/robot_0/base_pose_ground_truth] adding connection to [http://wks-51-57:46152/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:21,310: topic[/clock] adding connection to [http://wks-51-57:46152/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:23,572: topic[/robot_0/move_base/feedback] adding connection to [http://wks-51-57:46388/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:23,573: topic[/robot_0/move_base/status] adding connection to [http://wks-51-57:46388/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:23,573: topic[/robot_0/move_base/result] adding connection to [http://wks-51-57:46388/], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:23,776: topic[/robot_0/move_base/cancel] adding connection to [/robot_0/move_base_node], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:23,777: topic[/robot_0/move_base/goal] adding connection to [/robot_0/move_base_node], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:42,987: topic[/robot_status] adding connection to [/coordinator_3423_1507905702946], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:42,992: topic[/robot_0/patrol_status] adding connection to [/coordinator_3423_1507905702946], count 0
+[rospy.internal][INFO] 2017-10-13 16:41:42,993: topic[/robot_0/coordinator_directions] adding connection to [http://wks-51-57:44455/], count 0
+[rosout][ERROR] 2017-10-13 16:41:43,088: ************************
+[rosout][ERROR] 2017-10-13 16:41:43,088: robot_0
+[rosout][ERROR] 2017-10-13 16:41:43,088: sending a goal 1.0 2.0
+[rosout][ERROR] 2017-10-13 16:41:53,109: robot_0
+[rosout][ERROR] 2017-10-13 16:41:53,110: done cb
+[rosout][INFO] 2017-10-13 16:41:53,110: 3
+[rosout][ERROR] 2017-10-13 16:41:53,111: ************************
+[rosout][ERROR] 2017-10-13 16:41:53,111: robot_0
+[rosout][ERROR] 2017-10-13 16:41:53,112: sending a goal 2.0 4.0
+[rosout][ERROR] 2017-10-13 16:42:01,877: robot_0
+[rosout][ERROR] 2017-10-13 16:42:01,878: done cb
+[rosout][INFO] 2017-10-13 16:42:01,878: 3
+[rospy.internal][ERROR] 2017-10-13 16:42:35,205: Unable to initiate TCP/IP socket to wks-51-57:33920 (http://wks-51-57:44455/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-13 16:42:35,205: topic[/robot_0/patrol_status] adding connection to [/coordinator_3423_1507905702946], count 1
+[rospy.internal][INFO] 2017-10-13 16:42:35,205: topic[/robot_0/patrol_status] removing connection to /coordinator_3423_1507905702946
+[rospy.internal][INFO] 2017-10-13 16:42:35,206: topic[/robot_status] adding connection to [/coordinator_3423_1507905702946], count 1
+[rospy.internal][INFO] 2017-10-13 16:42:35,206: topic[/robot_status] removing connection to /coordinator_3423_1507905702946
+[rospy.internal][WARNING] 2017-10-13 16:42:36,206: Unknown error initiating TCP/IP socket to wks-51-57:33920 (http://wks-51-57:44455/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2017-10-13 16:42:36,206: topic[/robot_0/coordinator_directions] removing connection to http://wks-51-57:44455/
+[rospy.core][INFO] 2017-10-13 16:42:36,808: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2017-10-13 16:42:36,828: Unable to initiate TCP/IP socket to wks-51-57:45625 (http://wks-51-57:41539/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-13 16:42:36,828: topic[/robot_0/move_base/goal] removing connection to /robot_0/move_base_node
+[rospy.internal][INFO] 2017-10-13 16:42:36,829: topic[/robot_0/move_base/cancel] removing connection to /robot_0/move_base_node
+[rospy.internal][INFO] 2017-10-13 16:42:36,829: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-13 16:42:36,829: topic[/robot_status] removing connection to /coordinator_3423_1507905702946
+[rospy.internal][INFO] 2017-10-13 16:42:36,830: topic[/robot_0/patrol_status] removing connection to /coordinator_3423_1507905702946
+[rospy.internal][INFO] 2017-10-13 16:42:36,830: topic[/navigation_activity_status] removing connection to /robot_0/client_node
+[rospy.internal][ERROR] 2017-10-13 16:42:36,830: Unable to initiate TCP/IP socket to wks-51-57:40740 (http://wks-51-57:35461/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-13 16:42:36,830: topic[/navigation_activity_status] removing connection to /robot_1/client_node
+[rospy.internal][ERROR] 2017-10-13 16:42:36,831: Unable to initiate TCP/IP socket to wks-51-57:40740 (http://wks-51-57:35461/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-13 16:42:36,831: topic[/collision_positions] removing connection to /robot_0/client_node
+[rospy.internal][INFO] 2017-10-13 16:42:36,832: topic[/collision_positions] removing connection to /robot_1/client_node
+[rospy.internal][INFO] 2017-10-13 16:42:36,832: topic[/robot_0/move_base/status] removing connection to http://wks-51-57:46388/
+[rospy.internal][ERROR] 2017-10-13 16:42:36,832: Unable to initiate TCP/IP socket to wks-51-57:45625 (http://wks-51-57:41539/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 619, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 580, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2017-10-13 16:42:36,833: Unknown error initiating TCP/IP socket to wks-51-57:33752 (http://wks-51-57:46388/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2017-10-13 16:42:36,833: topic[/robot_0/move_base/result] removing connection to http://wks-51-57:46388/
+[rospy.internal][INFO] 2017-10-13 16:42:36,833: topic[/tf] removing connection to http://wks-51-57:46152/
+[rospy.internal][INFO] 2017-10-13 16:42:36,833: topic[/tf] removing connection to http://wks-51-57:36548/
+[rospy.internal][INFO] 2017-10-13 16:42:36,833: topic[/tf] removing connection to http://wks-51-57:42373/
+[rospy.internal][INFO] 2017-10-13 16:42:36,834: topic[/robot_0/base_pose_ground_truth] removing connection to http://wks-51-57:46152/
+[rospy.internal][INFO] 2017-10-13 16:42:36,834: topic[/clock] removing connection to http://wks-51-57:46152/
+[rospy.internal][INFO] 2017-10-13 16:42:36,834: topic[/navigation_activity_status] removing connection to http://wks-51-57:35461/
+[rospy.internal][INFO] 2017-10-13 16:42:36,834: topic[/navigation_activity_status] removing connection to http://wks-51-57:41539/
+[rospy.internal][INFO] 2017-10-13 16:42:36,835: topic[/robot_0/move_base/feedback] removing connection to http://wks-51-57:46388/
+[rospy.internal][INFO] 2017-10-13 16:42:36,835: topic[/collision_positions] removing connection to http://wks-51-57:35461/
+[rospy.internal][INFO] 2017-10-13 16:42:36,835: topic[/collision_positions] removing connection to http://wks-51-57:41539/
+[rospy.impl.masterslave][INFO] 2017-10-13 16:42:36,835: signal-2
+[rospy.internal][WARNING] 2017-10-13 16:42:36,838: Unknown error initiating TCP/IP socket to wks-51-57:33752 (http://wks-51-57:46388/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2017-10-13 16:42:36,841: Unknown error initiating TCP/IP socket to wks-51-57:33752 (http://wks-51-57:46388/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2017-10-13 16:42:37,452: signal_shutdown [atexit]

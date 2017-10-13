@@ -1,0 +1,8 @@
+prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
+
+Name: navfn
+Description: Description of navfn
+Version: 1.12.11
+Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
+Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -lnavfn
+Requires: nav_core roscpp pluginlib

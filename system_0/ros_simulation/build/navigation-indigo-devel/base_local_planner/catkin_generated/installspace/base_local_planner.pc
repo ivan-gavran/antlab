@@ -1,0 +1,8 @@
+prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
+
+Name: base_local_planner
+Description: Description of base_local_planner
+Version: 1.12.11
+Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
+Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -lbase_local_planner -ltrajectory_planner_ros
+Requires: roscpp dynamic_reconfigure message_generation tf pluginlib costmap_2d nav_core angles

@@ -1,0 +1,4 @@
+string robot_name
+geometry_msgs/PoseStamped goal
+---
+geometry_msgs/PoseStamped[] waypoints

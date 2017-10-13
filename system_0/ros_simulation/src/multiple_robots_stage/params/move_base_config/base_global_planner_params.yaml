@@ -1,0 +1,15 @@
+#For full documentation of the parameters in this file, and a list of all the
+#parameters available for TrajectoryPlannerROS, please see
+#http://www.ros.org/wiki/base_local_planner
+GlobalPlanner:
+  use_grid_path: true
+  use_dijkstra: false
+  visualize_potential: true
+  
+  #the following values are taken from http://zkytony.com/documents/navguide.pdf
+  #--------------
+  #cost_factor: 0.7
+  #neutral_cost: 66
+  #lethal_cost: 253
+  
+  #-------------

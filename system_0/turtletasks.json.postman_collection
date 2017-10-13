@@ -1,0 +1,160 @@
+{
+	"id": "f94028a8-bf4e-1bc9-6aed-87d13f537305",
+	"name": "turtletasks",
+	"description": "API for setting tasks for turtlebots\n",
+	"order": [
+		"79e9aa95-2ece-e962-704a-541d04580b22"
+	],
+	"folders": [
+		{
+			"id": "a544e714-bdea-d6f1-c415-96e8fe813fd4",
+			"name": "admin",
+			"description": "",
+			"order": [
+				"40c2f240-6fa3-951b-6e45-784ce9d09b7f",
+				"0f7b8334-f293-bdba-db8e-fccf100b165e"
+			],
+			"owner": "533682"
+		},
+		{
+			"id": "7ceb0337-8696-9b46-63a2-b7d53d7b9fa0",
+			"name": "tasks",
+			"description": "",
+			"order": [
+				"ec30ef94-65c7-a12b-c24a-d3901d07103c",
+				"cf0ec6db-584d-753c-33a3-b7adb76cbeb1"
+			],
+			"owner": "533682"
+		}
+	],
+	"timestamp": 1461669732526,
+	"owner": "533682",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "0f7b8334-f293-bdba-db8e-fccf100b165e",
+			"headers": "",
+			"url": "{{baseAdress}}/admin/bots",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "location",
+					"value": "[0,0]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "robot_0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461764880011,
+			"name": "/admin/bots",
+			"description": "",
+			"collectionId": "f94028a8-bf4e-1bc9-6aed-87d13f537305",
+			"responses": []
+		},
+		{
+			"id": "40c2f240-6fa3-951b-6e45-784ce9d09b7f",
+			"headers": "",
+			"url": "{{baseAdress}}/admin/bots",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461764873605,
+			"name": "/admin/bots",
+			"description": "",
+			"collectionId": "f94028a8-bf4e-1bc9-6aed-87d13f537305",
+			"responses": []
+		},
+		{
+			"id": "79e9aa95-2ece-e962-704a-541d04580b22",
+			"headers": "",
+			"url": "{{baseAdress}}/",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f94028a8-bf4e-1bc9-6aed-87d13f537305",
+			"data": null,
+			"dataMode": "params",
+			"name": "/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461670118022,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cf0ec6db-584d-753c-33a3-b7adb76cbeb1",
+			"headers": "",
+			"url": "{{baseAdress}}/api/tasks",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "locations",
+					"value": "[[1,2],[2,9]]",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user",
+					"value": "marijanban",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461688170487,
+			"name": "/api/tasks",
+			"description": "",
+			"collectionId": "f94028a8-bf4e-1bc9-6aed-87d13f537305",
+			"responses": []
+		},
+		{
+			"id": "ec30ef94-65c7-a12b-c24a-d3901d07103c",
+			"headers": "",
+			"url": "{{baseAdress}}/api/tasks?page=2&num_items=6",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f94028a8-bf4e-1bc9-6aed-87d13f537305",
+			"data": null,
+			"dataMode": "params",
+			"name": "/api/tasks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1461670460682,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ceb0337-8696-9b46-63a2-b7d53d7b9fa0"
+		}
+	]
+}

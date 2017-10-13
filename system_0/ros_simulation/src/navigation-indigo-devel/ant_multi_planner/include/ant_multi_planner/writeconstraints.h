@@ -1,0 +1,10 @@
+void declareVariables(ofstream & , workspace_t );
+void writeInitialLocationConstraints(ofstream & , workspace_t );
+void writeFinalDestinationCoverageConstraints(ofstream & , workspace_t );
+void writeObstacleConstraints(ofstream & , pos_vec_t , workspace_t );
+void writeTransitionConstraints(ofstream & , prim_vec_t , pos_vec_t , workspace_t );
+void writeCostConstraint(ofstream & , workspace_t );
+void writeOutputConstraints(ofstream & , workspace_t );
+void writeAlwaysEventuallyConstraints(ofstream &ofp, vector<position_with_cost> alwaysEventuallyFreeConstraints );
+string floatToReal(string );
+template <typename T> string tostr(const T& );

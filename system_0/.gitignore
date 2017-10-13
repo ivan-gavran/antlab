@@ -1,0 +1,16 @@
+*.pyc
+**.pddl
+z3_output
+*.traj
+*.smt2
+ros_simulation/devel/
+ros_simulation/src/multiple_robots_stage/static_files_folder/*.txt
+ros_simulation/src/multiple_robots_stage/static_files_folder/*
+ros_sumulation/src/multiple_robots_stage/static_files_folders/*.txt.*
+generated.launch
+*.o
+config/cnf.json
+**/buildingMaps
+**/dimension.txt
+**/obstacle.txt
+**/out.txt

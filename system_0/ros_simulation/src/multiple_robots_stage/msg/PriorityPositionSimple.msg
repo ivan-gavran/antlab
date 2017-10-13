@@ -1,0 +1,3 @@
+string priority
+geometry_msgs/Pose2D position
+string robot_name

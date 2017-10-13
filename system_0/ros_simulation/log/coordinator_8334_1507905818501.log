@@ -1,0 +1,109 @@
+[rospy.client][INFO] 2017-10-13 16:43:38,567: init_node, name[/coordinator_8334_1507905818501], pid[8334]
+[xmlrpc][INFO] 2017-10-13 16:43:38,567: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-13 16:43:38,567: Started XML-RPC server [http://wks-51-57:44690/]
+[rospy.init][INFO] 2017-10-13 16:43:38,568: ROS Slave URI: [http://wks-51-57:44690/]
+[rospy.impl.masterslave][INFO] 2017-10-13 16:43:38,568: _ready: http://wks-51-57:44690/
+[rospy.registration][INFO] 2017-10-13 16:43:38,568: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-10-13 16:43:38,568: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-10-13 16:43:38,568: Registering publisher topic [/robot_0/coordinator_directions] type [geometry_msgs/Pose2D] with master
+[rospy.registration][INFO] 2017-10-13 16:43:38,569: registering subscriber topic [/robot_status] type [multiple_robots_stage/RobotStatus] with master
+[rospy.registration][INFO] 2017-10-13 16:43:38,570: registering subscriber topic [/robot_0/patrol_status] type [multiple_robots_stage/PatrolStatus] with master
+[rospy.internal][INFO] 2017-10-13 16:43:38,573: topic[/robot_0/patrol_status] adding connection to [http://wks-51-57:42036/], count 0
+[rospy.internal][INFO] 2017-10-13 16:43:38,574: topic[/robot_status] adding connection to [http://wks-51-57:42036/], count 0
+[rospy.internal][INFO] 2017-10-13 16:43:38,574: topic[/robot_status] adding connection to [http://wks-51-57:40910/], count 1
+[rospy.internal][INFO] 2017-10-13 16:43:38,600: topic[/robot_0/coordinator_directions] adding connection to [/robot_0/client_node], count 0
+[rospy.init][INFO] 2017-10-13 16:43:38,668: registered with master
+[rospy.rosout][INFO] 2017-10-13 16:43:38,668: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-13 16:43:38,672: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-13 16:43:38,675: initializing /clock core topic
+[rospy.simtime][INFO] 2017-10-13 16:43:38,680: connected to core topic /clock
+[rospy.internal][INFO] 2017-10-13 16:43:38,681: topic[/clock] adding connection to [http://wks-51-57:40214/], count 0
+[actorClasses.task_organizer][INFO] 2017-10-13 16:43:38,686: robot_0 chosen
+[rosout][ERROR] 2017-10-13 16:43:38,686: 0
+[rospy.internal][INFO] 2017-10-13 16:43:38,891: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2017-10-13 16:43:48,666: intermediate position reached robot_0
+[rosout][ERROR] 2017-10-13 16:43:48,666: 1
+[rosout][INFO] 2017-10-13 16:43:57,385: final position reached robot_0
+[rosout][INFO] 2017-10-13 16:43:57,386: finished by now: 1
+[rosout][INFO] 2017-10-13 16:43:57,386: all robots 1
+[rosout][INFO] 2017-10-13 16:43:57,563: removing task organizer
+[tornado.access][INFO] 2017-10-13 16:44:38,048: 302 POST /api/ltl_tasks (127.0.0.1) 7.17ms
+[actorClasses.scheduler][INFO] 2017-10-13 16:44:38,049: SCHEDULER:request arrived
+[actorClasses.swarm_keeper][ERROR] 2017-10-13 16:44:42,760: {'robot_1': [x: 1.0
+y: 2.0
+z: 0.0]}
+[rosout][INFO] 2017-10-13 16:44:42,760: creating task organizer
+[actorClasses.task_organizer][INFO] 2017-10-13 16:44:42,760: initializing task_organizer
+[tornado.access][INFO] 2017-10-13 16:44:42,773: 200 GET / (127.0.0.1) 0.27ms
+[rosout][ERROR] 2017-10-13 16:44:42,773: start of task organizer
+[actorClasses.task_organizer][INFO] 2017-10-13 16:44:42,774: task started
+[actorClasses.task_organizer][INFO] 2017-10-13 16:44:42,774: {'robot_1': [x: 1.0
+y: 2.0
+z: 0.0]}
+[actorClasses.task_organizer][INFO] 2017-10-13 16:44:42,778: robot_1 chosen
+[rosout][ERROR] 2017-10-13 16:44:42,778: 0
+[rospy.internal][INFO] 2017-10-13 16:44:42,779: topic[/robot_1/patrol_status] adding connection to [http://wks-51-57:40910/], count 0
+[rospy.internal][INFO] 2017-10-13 16:44:42,871: topic[/robot_1/coordinator_directions] adding connection to [/robot_1/client_node], count 0
+[rosout][INFO] 2017-10-13 16:44:51,158: final position reached robot_1
+[rosout][INFO] 2017-10-13 16:44:51,159: finished by now: 1
+[rosout][INFO] 2017-10-13 16:44:51,159: all robots 1
+[rosout][INFO] 2017-10-13 16:44:51,562: removing task organizer
+[tornado.access][INFO] 2017-10-13 16:45:10,275: 302 POST /api/ltl_tasks (127.0.0.1) 11.50ms
+[actorClasses.scheduler][INFO] 2017-10-13 16:45:10,275: SCHEDULER:request arrived
+[actorClasses.swarm_keeper][ERROR] 2017-10-13 16:45:15,643: {'robot_0': [x: 2.0
+y: 4.0
+z: 0.0, x: 1.0
+y: 2.0
+z: 0.0]}
+[rosout][INFO] 2017-10-13 16:45:15,643: creating task organizer
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:15,643: initializing task_organizer
+[tornado.access][INFO] 2017-10-13 16:45:15,656: 200 GET / (127.0.0.1) 0.28ms
+[rosout][ERROR] 2017-10-13 16:45:15,657: start of task organizer
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:15,657: task started
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:15,657: {'robot_0': [x: 2.0
+y: 4.0
+z: 0.0, x: 1.0
+y: 2.0
+z: 0.0]}
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:15,658: robot_0 chosen
+[rosout][ERROR] 2017-10-13 16:45:15,658: 0
+[rosout][INFO] 2017-10-13 16:45:15,712: intermediate position reached robot_0
+[rosout][ERROR] 2017-10-13 16:45:15,713: 1
+[rosout][INFO] 2017-10-13 16:45:26,588: finished by now: 1
+[rosout][INFO] 2017-10-13 16:45:26,589: all robots 1
+[rosout][INFO] 2017-10-13 16:45:27,064: removing task organizer
+[actorClasses.scheduler][INFO] 2017-10-13 16:45:27,066: SCHEDULER:request arrived
+[actorClasses.swarm_keeper][ERROR] 2017-10-13 16:45:32,846: {'robot_1': [x: 1.0
+y: 2.0
+z: 0.0, x: 2.0
+y: 4.0
+z: 0.0]}
+[rosout][INFO] 2017-10-13 16:45:32,846: creating task organizer
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:32,846: initializing task_organizer
+[rosout][ERROR] 2017-10-13 16:45:32,849: start of task organizer
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:32,850: task started
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:32,850: {'robot_1': [x: 1.0
+y: 2.0
+z: 0.0, x: 2.0
+y: 4.0
+z: 0.0]}
+[actorClasses.task_organizer][INFO] 2017-10-13 16:45:32,850: robot_1 chosen
+[rosout][ERROR] 2017-10-13 16:45:32,850: 0
+[rosout][INFO] 2017-10-13 16:45:32,887: intermediate position reached robot_1
+[rosout][ERROR] 2017-10-13 16:45:32,887: 1
+[rospy.core][INFO] 2017-10-13 16:45:38,188: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-13 16:45:38,191: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-13 16:45:38,191: topic[/robot_1/coordinator_directions] removing connection to /robot_1/client_node
+[rospy.internal][INFO] 2017-10-13 16:45:38,191: topic[/robot_0/coordinator_directions] removing connection to /robot_0/client_node
+[rospy.internal][INFO] 2017-10-13 16:45:38,191: topic[/clock] removing connection to http://wks-51-57:40214/
+[rospy.internal][INFO] 2017-10-13 16:45:38,192: topic[/robot_status] removing connection to http://wks-51-57:42036/
+[rospy.internal][INFO] 2017-10-13 16:45:38,192: topic[/robot_status] removing connection to http://wks-51-57:40910/
+[rospy.internal][INFO] 2017-10-13 16:45:38,192: topic[/robot_0/patrol_status] removing connection to http://wks-51-57:42036/
+[rospy.internal][INFO] 2017-10-13 16:45:38,192: topic[/robot_1/patrol_status] removing connection to http://wks-51-57:40910/
+[rospy.impl.masterslave][INFO] 2017-10-13 16:45:38,192: signal-2
+[rospy.internal][WARNING] 2017-10-13 16:45:38,193: Unknown error initiating TCP/IP socket to wks-51-57:42407 (http://wks-51-57:42036/): Traceback (most recent call last):
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2017-10-13 16:45:38,791: signal_shutdown [atexit]
