@@ -1,3 +1,5 @@
+**WARNING: still in alpha version. Please follow the [issue 1](https://github.com/gergia/antlab/issues/1) to get the information on the first version with proper installation instructions**. If you are more patient, give it a try with current instructions.
+
 # antlab
 Antlab is a multi-robot task server that accepts task specifications as LTL formulas, assigns task to set of robots, creates plans and executes requests.
 
