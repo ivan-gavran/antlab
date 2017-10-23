@@ -44,10 +44,10 @@ class Main(tornado.web.RequestHandler):
                    '</form>'
                    '<p>LTL request: </p>'
                    '<form id="task_form" action="/api/ltl_tasks" method="POST">'
-                    '<input type="text" name="formula", value=&lt&gt(loc1/\&lt&gt(loc2/\loc3))>'
+                    '<input type="text" name="formula", value=&lt&gt(loc1/\&lt&gt(loc2\/loc3))>'
                    '<input type="text" name="user", value=turtle>'
                    '<input type="text" name="locationValues", value=loc1:1,3;loc2:1,2;loc3:2,4>'
-                   '<input type="text" name="sameRobotLocations", value=loc2,loc3>'
+                   '<input type="text" name="sameRobotLocations", value=loc1,loc2>'
                    '<input type="submit" value="Submit">'
                    '</form>'
                    '</body></html>')
