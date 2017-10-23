@@ -1,8 +1,0 @@
-prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
-
-Name: move_base_msgs
-Description: Description of move_base_msgs
-Version: 1.12.11
-Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
-Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib 
-Requires: 

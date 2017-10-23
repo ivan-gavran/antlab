@@ -1,6 +1,0 @@
- [Loading /home/ivan/antlab-repo/system_0/ros_simulation/src/multiple_robots_stage/maps/worlds/emptyRectangleTiny.world][Include /opt/ros/indigo/share/turtlebot_stage/maps/stage/turtlebot.inc]
-[44mwarn[0m: worldfile /home/ivan/antlab-repo/system_0/ros_simulation/src/multiple_robots_stage/maps/worlds/emptyRectangleTiny.world:19 : property [laser_return] is defined but not used (/tmp/binarydeb/ros-indigo-stage-4.1.1/libstage/worldfile.cc WarnUnused)
-[44mwarn[0m: worldfile /home/ivan/antlab-repo/system_0/ros_simulation/src/multiple_robots_stage/maps/worlds/emptyRectangleTiny.world:7 : property [range_max] is defined but not used (/tmp/binarydeb/ros-indigo-stage-4.1.1/libstage/worldfile.cc WarnUnused)
-[44mwarn[0m: worldfile /home/ivan/antlab-repo/system_0/ros_simulation/src/multiple_robots_stage/maps/worlds/emptyRectangleTiny.world:7 : property [range_max] is defined but not used (/tmp/binarydeb/ros-indigo-stage-4.1.1/libstage/worldfile.cc WarnUnused)
-[0m/stageros:Found 1 laser devices and 0 cameras in robot 0[0m
-[0m/stageros:Found 1 laser devices and 0 cameras in robot 1[0m

@@ -1,2 +1,0 @@
-set(multi_global_planner_MESSAGE_FILES "/home/ivan/antlab-repo/system_0/ros_simulation/src/navigation-indigo-devel/multi_global_planner/msg/robotLocationAssignment.msg;/home/ivan/antlab-repo/system_0/ros_simulation/src/navigation-indigo-devel/multi_global_planner/msg/robotInSpace.msg")
-set(multi_global_planner_SERVICE_FILES "/home/ivan/antlab-repo/system_0/ros_simulation/src/navigation-indigo-devel/multi_global_planner/srv/planMultiRobotPath.srv;/home/ivan/antlab-repo/system_0/ros_simulation/src/navigation-indigo-devel/multi_global_planner/srv/SingleRobotWaypoints.srv")

@@ -1,8 +1,0 @@
-prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
-
-Name: clear_costmap_recovery
-Description: Description of clear_costmap_recovery
-Version: 1.12.11
-Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
-Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -lclear_costmap_recovery
-Requires: costmap_2d nav_core pluginlib roscpp tf

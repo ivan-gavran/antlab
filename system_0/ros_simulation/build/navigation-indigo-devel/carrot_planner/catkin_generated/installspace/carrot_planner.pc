@@ -1,8 +1,0 @@
-prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
-
-Name: carrot_planner
-Description: Description of carrot_planner
-Version: 1.12.11
-Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
-Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -lcarrot_planner
-Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

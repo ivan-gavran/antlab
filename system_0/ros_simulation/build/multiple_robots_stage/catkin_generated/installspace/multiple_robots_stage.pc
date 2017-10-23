@@ -1,8 +1,0 @@
-prefix=/home/ivan/antlab-repo/system_0/ros_simulation/install
-
-Name: multiple_robots_stage
-Description: Description of multiple_robots_stage
-Version: 0.0.0
-Cflags: -I/home/ivan/antlab-repo/system_0/ros_simulation/install/include
-Libs: -L/home/ivan/antlab-repo/system_0/ros_simulation/install/lib -lmultiple_robots_stage
-Requires: roscpp rospy std_msgs message_runtime
