@@ -1,4 +1,7 @@
-utils/examples/tool_z3
+utils/examples/optimizationResults
+utils/examples/costData
+utils/examples/*.txt
+utils/examples/plan_opt
 **/ltlconstraints.txt
 **/ltlvariables.txt
 **/output

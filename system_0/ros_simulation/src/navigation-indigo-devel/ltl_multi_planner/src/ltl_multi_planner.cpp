@@ -3,7 +3,6 @@
 #include <ltl_multi_planner/ltl_multi_planner.h>
 #include <ltl_multi_planner/primitive.h>
 #include <ltl_multi_planner/readinputs.h>
-#include <ltl_multi_planner/writeconstraints.h>
 #include <ltl_multi_planner/extractoutput.h>
 #include <string>
 #include <iostream>

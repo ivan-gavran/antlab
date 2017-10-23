@@ -14,3 +14,4 @@ config/cnf.json
 **/dimension.txt
 **/obstacle.txt
 **/out.txt
+staticFilesTesting/ltlResults

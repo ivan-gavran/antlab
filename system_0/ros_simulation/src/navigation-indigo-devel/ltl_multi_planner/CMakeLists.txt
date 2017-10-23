@@ -126,7 +126,6 @@ include_directories(
  add_library(ltl_multi_planner
    src/ltl_multi_planner.cpp
    src/readinputs.cpp
-   src/writeconstraints.cpp
    src/extractoutput.cpp
    src/primitive.cpp
  )
